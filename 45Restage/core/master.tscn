@@ -13,11 +13,11 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_mf2i1")
-game = NodePath("Game")
+game = NodePath("balls")
 transitions = NodePath("Transitions")
 vn_seq = ExtResource("2_fn6x0")
 
-[node name="Game" type="Control" parent="."]
+[node name="balls" type="Control" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -25,7 +25,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="MainMenu" parent="Game" instance=ExtResource("3_mddgv")]
+[node name="MainMenu" parent="balls" instance=ExtResource("3_mddgv")]
 layout_mode = 1
 
 [node name="Transitions" type="CanvasLayer" parent="."]

@@ -20,6 +20,6 @@ func transition_into_game() -> void:
 	main_menu.queue_free()
 	
 	#start the actual game scene
-	Dialogic.start("Intro")
+	Dialogic.start(vn_seq)
 	
 	await transitions.fade_out()
