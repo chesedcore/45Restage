@@ -1,0 +1,14 @@
+[background arg="res://assets/blackground.png" fade="0.0"]
+...
+...I can't believe you did that! You really are a monster!
+Caius, I...I had too! He was going to-
+None of this had to happen! [n+] Your sticky fingers couldn't help themselves! And now a man is dead, and it's all our fault!
+Your sticky fingers couldn't help themselves! And now a man is dead, and it's all our fault!
+No...it's your fault! You godforsaken Dretchling! They were right about you! You [i]are[/i] a devil...
+Caius, I...
+Get the hell away from me! [n+] I'll tell the Reverend, so help me! I'll see you hanged if you don't get out of here!
+I should've never helped you. I should've known...that a hellspawn would kill a guard. It's in your blood by Ishmael's mercy... [n+] And now, he's gonna smite us both...
+# ##[n+] is extend from rpy
+I could've made something of myself. I never wanted to be a thief. And then you came along... [n+] And now I'm a murderer! All because of you!
+I hate you... [n+] [b]I hate you!!![/b]
+jump scene_01timeline/

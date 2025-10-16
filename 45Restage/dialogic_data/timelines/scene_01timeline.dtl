@@ -1,0 +1,144 @@
+[background arg="res://assets/slums_sunset.png" fade="1.0"]
+Caius: Ngh...
+Damn it, my mind wandered off again. I’m supposed to be preparing for my trial.
+It's been five years...and those memories still haunt me. [n+]  No matter how much I repent, I haven’t been able to shake their hold over me. I can't find the strength to truly forgive myself.
+Five years, I wonder how he's doing. [n+] It wasn't his fault. The whole thing was just a big mistake. We were cornered, he didn’t have any other choice.
+Once I become an Emissary, I'll change everything. I'll make things right. I'll open everyone's eyes and show them that dretchlings aren't to be feared.
+Voice: Hey, how are you holding up?
+join Jory (happy) center [animation="Fade In"]
+[wait time="0.5"]
+I shudder as the giant approaches me. [n+] I never understood how a man so big could be so quiet.
+
+Caius: I'm managing, thanks for asking, sir.
+join Jory (neutral) center
+Jory: ...You're not going to stop calling me that, are you?
+Caius: I prefer them. You did adopt me, I want to show my respect.
+join Jory (happy) center
+Jory: Respect? I don't care about that. I'm proud of you, Caius! You've grown into a fine man! [n+] And now, you're going away...
+
+join Jory (sad) center
+As jovial as he was trying to be, I read him like a book. Jory supports me, but I know he doesn't want me to leave. Like he said, we're family. [n+] That and the mortality rate for Emissaries is high...
+They say death is a daily occurrence in their ranks. I've heard tales that some of the recruits are criminals forced to join them or face execution. [n+] Apparently, many prefer the noose...
+The Emissaries aren't like normal Celestials. They aren't guards. Instead, they go out and confront problems directly. [n+] Whether it be outlaws, spies from Jorunderfell, witches, or devils, they hunt down every last one of them.
+I don't blame Jory for worrying. I might not be the same person when - if - I return... [n+] Still, I had to go. I only met Jory because the Reverend took pity on me. I had to make things right.
+
+Caius: You've taught me well, sir. From combat, to controlling mana, to keeping my mind pure. I'm ready!
+
+join Jory (neutral) center
+Jory: Oh of course you are, it's just... [n+] A lot of people join the Emissaries, and it breaks them.
+Jory: I'm not trying to trample on your dream, but are you sure there's no other way? [n+] I mean, look at me! I never joined the Emissaries, and I'm the Reverend's right hand man!
+Jory: It's not just about what you accomplish Caius. It's about who you know and the impressions you make. [n+] I mean, that's why we met. The Reverend plopped you at my doorstep, remember?
+
+How could I not? [n+] When he found me, crying over that Celestial's corpse back then, I thought my fate was sealed....
+From what I hear, the Reverend is a tyrant. But that's not what I saw... [n+] I took the blame. I told them that the bloodied dagger was mine.
+He didn't believe me. I could tell... [n+] Rather than executing me though, he said something that I'll never forget...
+
+Voice: Blessed are the peacekeepers. Blessed are those who relinquish themselves for the sake of others. [n+] I do not know what really transpired, but I'm thankful I met someone as noble as you. You remind me of why I took up the mantle.
+Voice: Although the crime committed is great, his end was his own doing. [n+] As your reverend, I command you to rise. Your friend will not face retribution.
+
+...I haven't seen him since. I've been too ashamed, too afraid to face him.
+# ##TODO - Add glossary or lore entry for dretchlings
+The Dretchlings are a race feared, hated, and even attacked because of their fiendish blood.
+Once I rise up through the ranks, putting in laws to protect them will be the first change I implement. [n+] After all, devils don't need our help harvesting souls. And I hear they flock to Dretchlings like moths to a flame...
+
+Caius: Sir, I'm aware of the danger. I've been preparing myself all week.
+Caius: How can I change this country if I don't have the courage to face the evils I want to abolish? Devils lurk not just in Hell but also in the ears and minds of our leaders.
+Caius: If I don't learn how to deal with them, I'll run the risk of making the same mistake The Third did.
+
+join Jory (sad) center
+Jory: Hmmm, he was a terrible man indeed...
+
+# ## TODO: Add Hale Lore
+# ##TODO Add Reckoning Lore
+The now deceased Reverend Hale III, or The Third as we call him, held more executions than any other reverend. [n+]    They say his cruelty was so atrocious that he caused The Reckoning, where the sky tore open and an agent of the Archfiend Hecate dragged him into Hell...
+
+Caius: He abused you. He abused everyone! His pride and arrogance caused the Reckoning, and now our country is divided!
+join Jory (neutral) center
+Jory: Caius, hear me out... [n+] That man's vices weren't because of a fiend. He walked into that fire himself.
+Jory: Not every act of malice has a devil behind it. We're capable of making decisions, both good and bad...
+join Jory (sad) center
+Jory: I know your guilt is heavy, and I know that you want to make things right. [n+] But you can't let your past blind you. You need to think about the here and now.
+Jory: If I hadn't done so, Caius, I would've been burnt alive just like her... And we wouldn't be having this conversation.
+
+I cringe along with him. [n+] It takes a lot to get under Jory's skin, and when something does, it’s always about a woman he once cared for...
+
+Caius: ...But you've made amends. I mean, you took me in despite the fact I, you know...
+
+join Jory (happy) center
+Jory: I sure did, and I have no regrets!
+join Jory (angry) center
+Jory: Still, a day doesn't go by when I don't think about her. Or, wanted to avenger her...!
+
+The sight of his fists clenching makes me shudder. [n+] I still can't believe The Third had the courage to bully Jory or his friends.
+
+join Jory (happy) center
+Jory: Uh whoops! Lost myself there! [n+] You get what I mean though, right?
+Caius: I do, sir. And I appreciate your concern, but my mind is made up.
+join Jory (neutral) center
+Jory: Oh, I see...
+Caius: I will make things right, for my friend and Aurielle. [n+] I won't let anyone make the same mistakes we did!
+join Jory center
+Jory: But...you know what you're getting yourself into, right? [n+] These rogues are very strict. I bet your recruiter has some sort of test cooked up for you.
+Jory: And even if - no when, you complete it, there's not guarantee they'll let you join. [n+] It's one thing when a condemned criminal is admitted, but another when someone wants to impress them. Their work isn't for everyone...
+Caius: I'll manage. I'm not sure how, but I'll figure it out!
+join Jory (happy) center
+Jory: Shoot, guess I can't complain then, can I?
+
+# ##play sound light_grapple
+I wince as his meaty hand pats my shoulder. [n+] Well... more like engulfs it.
+
+Jory: Just come back in one piece, alright?
+Caius: I promise!
+Dialogic.start(...)
+label start
+Voice: Hmmm... I knew you took a vow of poverty, but I still expected better lodgings...
+leave Jory [animation="Fade Out"]
+join characterGriswyr (base) center [animation="Fade In" extra_data="set expressions/angry"]
+[wait time="0.75"]
+
+We turn, and there stands a gaunt man.
+His pale complexion rivals that of snow, and his hair is just as white.
+He is almost as skinny as mye, but his arms and legs are chiseled with muscle. [n+] Despite him being an elite, he wears only a leather vest and breeches.
+On one hip rests a shortsword, on the other...a grisly-edged hatchet. [n+] Then there are his eyes. I feel like I'm peering into an abyss when our gazes meet. He must be my recruiter.
+The stories depict Emissaries as dark, brooding individuals. He fits that description perfectly.
+He puts away his notebook and looks towards us, disinterested...
+
+Voice: You are Caius, correct?
+Caius: Yes, sir.
+I am Griswyr Alucard. I have come to claim you.
+# ##TODO Change audio file if we change Griswyr's name
+
+join Jory (sad) leftmost [animation="Fade In" mirrored="true"]
+That's right, it's the perfect time to be on the move. Our foes will strike when we are most vulnerable. [n+] That's not a problem, is it?
+Caius: No sir...
+
+Oh, but it is a BIG problem! I'm not prepared for a nocturnal expedition... I thought the trial would test my skills in combat, not my endurance.
+
+leave Jory
+If you are ready, then let's go. Our enemy has already begun their machinations.
+Caius: Who are we going after?
+You're familiar with the Thorns, correct?
+Caius: Hmm, that name doesn't ring a bell...
+
+# ##TODO: add ThornLore
+They call themselves the [i[Agents of the Rose[/i], Hecate's cultists, to be precise.
+
+join Jory (angry) rightmost [animation="Fade In Down"]
+Jory grimaces. I don't blame him. I expected to face a vagabond, an apostate, or a weaker devil, but an entire cult? [n+] With just the two of us?!
+Griswyr's eyes narrow and I gulp. [n+] On top of being unprepared, now I've earned his ire...
+
+leave Jory
+...I'm sorry, did you expect this mission to be simple?
+Caius: No, I'm ready for anything.
+Many fools have run to their end believing such nonsense. [n+] It is alright to be intimidated, how you follow through is what matters.
+Now let's be off. Time is of the essence.
+Caius: Yes sir...
+leave characterGriswyr [animation="Slide Out Right"]
+join Jory (neutral) center [animation="Fade In"]
+# ##TODO: Learn how to zoom out the sprites
+
+As we depart, Jory waves me off, but the enthusiasm has vanished from his face...
+My blood freezes as the sun sets. [n+] Jory just might be onto something, but it's too late for me to back out now...
+I suppose it's only natural that the trials of the Emissaries are just as dangerous as the work they do, and Griswyr has a point. [n=] I wonder why he chose me for this particular task... I'm as green as they come.
+
+jump scene_02timeline/

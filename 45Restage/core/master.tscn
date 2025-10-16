@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://cbxqs17dr5yvg"]
+
+[ext_resource type="Script" uid="uid://cqlo5ls6t753j" path="res://core/transitions.gd" id="1_l4f7p"]
+[ext_resource type="Script" uid="uid://cqa4s4hl5p868" path="res://core/master.gd" id="1_mf2i1"]
+[ext_resource type="Resource" uid="uid://dnl12urulddkl" path="res://dialogic_data/timelines/Intro.dtl" id="2_fn6x0"]
+[ext_resource type="PackedScene" uid="uid://cfhwwc3apdqbc" path="res://scenes/MainMenu.tscn" id="3_mddgv"]
+
+[node name="Master" type="Control" node_paths=PackedStringArray("game", "transitions")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_mf2i1")
+game = NodePath("Game")
+transitions = NodePath("Transitions")
+vn_seq = ExtResource("2_fn6x0")
+
+[node name="Game" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MainMenu" parent="Game" instance=ExtResource("3_mddgv")]
+layout_mode = 1
+
+[node name="Transitions" type="CanvasLayer" parent="."]
+layer = 2
+script = ExtResource("1_l4f7p")

@@ -1,0 +1,151 @@
+
+label scene_06:
+
+    Voice: By Ishmael, I knew I shouldn't have let him leave!
+    Voice: Enough. He needs rest. You can't treat all injuries with mana.
+    Voice: Damn you, Emissary!
+    Voice: I'll accept your insults. I should be dead myself. [n+] In fact, I'd prefer death over the position we're in now...
+    Voice: Oh! He's waking up! Thank goodness!
+
+    #scene background slums
+
+    #show Jory sad at center_left #will add in official sprite after jam
+    #show Griswyr neutral at center_right behind Jory
+    with Dissolve(0.8)
+
+    I stir wearily, wrapped in bandages in more places than I can fathom...
+    I find myself in Jory's arms... It still hurts to move, but it looks like I've pulled through.
+    Griswyr stands in the corner, at a distant as always.
+
+    # nvl clear
+
+    Jory: By Ishmael, are you alright?!
+
+    #play music bgm.epilogue fadein 1.5
+    Caius: Ngh....well, I'm still breathing so... #snide portrait
+    Griswyr: Luckily most of his injuries weren't deep. Those broken ribs are going to need some time, not like you can move anyways.
+    Griswyr: You nearly burnt all of your mana, Caius. A drop more, and you would be a corpse.
+
+    # TODO:
+    # show Jory angry with dissolve
+
+    Jory: It shouldn't have ended this way!
+    Jory: What came of this?! All you did was put my friend in bandages! You didn't even kill the devil!
+
+    Griswyr: I know, and I'm very upset... She's going to be a problem. [n+] Caius was the only reason we lived. This won't make you feel better, but I believe he'll make a fine Emissary.
+    Griswyr: If he wants to, that is.
+
+    #play sound sfx.heavy_bam
+    #with vpunch
+    The ground quakes from Jory's stomp!
+    I know he didn't mean to, but damn that hurts my ribs... [n+] Of course Griswyr hardly cares...
+
+    # nvl clear
+
+    Jory: Get out! We're done here! [n+] It may be his choice, but I don't want to see you or your kind ever again!
+    Griswyr: As you wish. [n+] I'll find Caius when my superior makes a decision. I won't blame him if he wants to reconsider joining after last night.
+    Griswyr: Until next time.
+
+    #hide Griswyr with dissolve
+    #pause 0.5
+    #show Jory sad at center with dissolve
+
+    Jory: Grr... Damn it! Why does this keep happening to my friends?!
+    Caius: Hey...it's not your fault, sir. [n+] I couldn't stop thinking about you... I kept pushing myself for your sake... #sad portrait
+    Jory: Oh right, you made that promise...
+
+    # TODO:
+    # show Jory angry with dissolve
+
+    extend  But I'm not the one who needs to be protected!
+
+    Caius: On that, we'll have to agree to disagree... #sad portrait
+
+    # TODO:
+    # show Jory neutral with dissolve
+
+    Jory: By Ishmael, you're as stubborn as always...
+    Caius: Hey Jory, when I'm better... Can we visit Thrycia? #happy portrait
+    Jory: I...thought you wanted to become an Emissary first.
+    Caius: I did, but after last night, I'm ready to go back now. [n+] I may not be able to change anything yet, but I can still see him... #happy portrait
+
+    # TODO:
+    # show Jory sad with dissolve
+
+    Jory sighs deeply and closes his eyes.
+
+    # nvl clear
+
+    Jory: Caius...there's something you need to know. [n+] While you were gone, word hit Jubilee, and...
+
+    Caius: And...?
+
+    He gulps hard and speaks slowly.
+
+    # nvl clear
+
+    Jory: Thrycia...
+
+    #stop music
+
+    extend is no more.
+
+    Caius: Huh...? #snide portrait
+    Jory: No one is sure of what happened, but the rumors say a devil was involved...
+
+    Caius: A devil...?! #angry portrait
+    Jory: Two... Apparently, a dretchling summoned it. I'm sorry...
+    Caius: Gngh! with vpunch #angry portrait
+
+    I swear I hear Persephone's words in my mind again.
+
+    # nvl clear
+
+    Persephone: [i]Don't worry, I'll leave Jory be, just as you wished. Anything to get away from you...[/i]
+
+    My mouth falls agape. I stare at Jory in utter denial.
+    My heart races, tears fall from my cheeks, but all I can do is remain paralyzed in shock...
+    Yet again, I was too weak...and now. [n+] There's nothing I can do to save him...!
+
+    # nvl clear
+
+    Caius: ...Priam?! #sad portrait
+
+    play sound magic_charge
+    with graceflash
+
+    # TODO:
+    # show Jory neutral with dissolve
+
+    Jory: Woah!
+
+    c snide [b]PRRRRRRRIIIIIIIIIAAAAAAAAMMMMMM!!![/b] #snide portrait, with vpunch
+
+    #$ quick_menu = False
+    #scene image #fff with iris_in_out_slow
+    #pause 2.0
+    #scene image #000 with Dissolve(2.0)
+    #pause 2.0
+
+    ##############################
+    ### Roll credits.
+    ##############################
+
+    $ quick_menu = False
+
+    call screen cinematic_credits_screen()
+
+    # Update flag used to determine if the ending has been seen once.
+    # From this point forward, the credits can be skipped.
+    $ persistent.ending_watched =  True
+
+    pause 1.0
+
+    $ unlockCompendionEntry(HecateLore)
+
+    pause 2.0
+
+    return
+
+    #### Game ends
+

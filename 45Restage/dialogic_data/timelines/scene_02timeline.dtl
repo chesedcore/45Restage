@@ -1,0 +1,156 @@
+[background arg="res://assets/forest.png" fade="0.5"]
+
+play music bgm.night_ambience
+play sound sfx.forestfootsteps loop # TODO\: Using placeholder track. Replace with correct one.
+
+A choir of crickets chirps as we leave Jubilee's outskirts. [n+] I feel dismayed. The moon's radiance is telling me it's time for bed, but we've only just started our journey...
+
+
+join characterGriswyr (base) center [animation="Fade In" extra_data="set expressions/angry"]
+
+Meanwhile, Griswyr moves like he's in his element, under the cover of night... Now that I think about it, something is...different about him. [n+] He can't be a Dretchling. They're pale, but not to his degree. And his eyes don’t share their crimson pupils.
+Yet, the way he carries himself, feels unnatural somehow. He looks human, but...
+
+# nvl clear
+
+You aren't getting tired already, are you?
+Caius: N-No! I'm just...usually in bed by this time.
+You'll wake up soon enough. Their cave isn't far from here.
+Caius: R-Right! [n+] So, can you tell me about these uhh, "Thorns"? #angry portrait
+
+"He scoffs as is I just asked him the obvious.
+
+...It's a band of heretics worshiping an Archfiend. What more do you need to know?
+Caius: I mean, their numbers? Their weapons? If there's anyone among them who can cast spells or utilize mana? #neutral expression
+Hmm, I wasn't expecting you to be so resourceful. [n+] It's a small sect. I doubt there's more than ten of them. I'd imagine their leader can wield magic.
+Caius: Ah! I was expecting something more organized! That eases my mind! #happy portrait
+And they're on the cusp of summoning a devil.
+Caius: ... [n+] Tonight? #neutral portrait
+Tonight. [n+] If one pops out, this mission becomes much deadlier. Even I will have to be careful. [n+]  Not like it'll change the outcome, of course.
+Caius: Hmm...
+I wouldn't have picked someone who was incapable. I have high expectations for you, and I expect to see them met. [n+] I don't think I need to explain the consequences of a devil escaping.
+Caius: O-Of course not. Not like I'd let them finish summoning it. #angry portrait
+How do you intend to stop it?
+
+Caius: Well, if we move together, we can dispatch them  one-by-one. [n+] I assume this ritual requires a lot of mana. The fewer men they have, the more mana will be needed from each of them. #neutral portrait
+And you don't think their leader has mana in spades? He's devout, after all. His fervor alone is likely all that's needed.
+Caius: Well then, we can sneak in, take him out, and- #neutral portrait
+Are you so quick to abandon your plans?
+Caius: But you said- #snide expression
+So what? One weak point doesn't make a plan fallible. [n+] If anything, your next suggestion may as well be suicide. What cult would be foolish enough to allow us to assassinate their leader?
+These people are aware of the danger; from us, from rival cults, and from the wrath of their deity. [n+] If anything, they already know we're coming. Hecate's followers are excellent at blending in.
+Caius: If I recall correctly, Hecate favors deception. I've heard that even beggars worship her in secret.  #neutral portrait
+Why do you think we have Celestials guarding every orphanage? They're breeding grounds for her acolytes. No one ever suspects caregivers. [n+] I was lucky to locate this cult. Normally they are just as elusive as succubi, but I guess someone got sloppy. Or arrogant.
+
+I don't want to think ill of Griswyr, but I don't care for his tone. [n+] The way he speaks of them. Yes, they worship an archfiend, however they're still people.
+Of course, Emissaries are legalized rogues. If I wanted to be some arbiter of justice, I would've joined the Celestials instead. [n+] However, I fear they're too embroiled with their stalemate with the Exorcists to deal with lurking fiends.
+Yet I'm still put off by Griswyr. I admire his confidence. Most would shudder at the thought of a devil being summoned, though he could be a little more humble...
+
+Caius: Alright, then let's discuss tactics. [n+] I'm good at fighting hand-to-hand, and I have great control of my mana. #neutral expression
+You, a fighter? With arms that spindly?
+Caius: Yes? #angry expression
+
+I look at my chiseled, emaciated limbs defiantly.
+I took a vow of poverty to atone for what I said to my friend. [n+] I chose to live in poverty, much like he and I were living in before the incident.
+It would've been very easy for me to establish a comfortable life. I had the Reverend's favor. I could've easily climbed the ranks through becoming a Celestial.
+But I wouldn't be able to forgive myself. My friend shouldn't continue to starve while I enjoy myself. Especially when my mistake got me where I am. I can indulge myself once I've changed how Dretchlings are treated.
+This vow limits my nutrition and spending activities. I only eat enough to sustain myself, and purchase items that are absolutely necessary. Jory believes I would have been taller had I eaten a normal diet. But I care little about my appearance.
+Besides, this vow has forced me to look within myself, to master every thought that passes through.
+
+# nvl clear
+
+How pious... [n+] Too pious. You expect such flimsy arms to have an impact?
+Caius: That's what my mana is for.
+What mana do you wield?
+
+# #$ unlockCompendionEntry(GraceLore)
+Caius: Grace. [n+] Normally it doesn't empower its wielder like other mana, but I've learned to manipulate it to my advantage. #smile portrait
+Caius: Grace will be paramount if this monster is summoned.
+# #$ unlockCompendionEntry(MaliceLore)
+Caius: Devils are beings of the dark mana, Malice. Seeing how Grace repels that mana, I'm certain even my jabs will be lethal to it.
+It might, assuming you get the chance to use it.
+Caius: Well as you said, I am feeble. I doubt the fiend will expect much of a fight from me.
+Or, it'd take you out first to even the odds. [n+] Let's say it barrels towards you, wanting to kill you as quickly as possible. What then?
+Caius ... [n+] Then I'll- #neutral portrait
+Too late, you're dead! [n+You hesitated, and it tore your throat out.
+Caius: Oh... #snide expression
+You don't hesitate. Not for a second. If it attacks, you fight back. [n+] If it chases after me, you pursue it. If it casts a spell, you dodge. Whatever happens, you adapt!
+I can tell that you spend way too much time thinking, and not enough time acting. [n+] On a good day, the best plans fail. We're dealing with schemers from Hell itself, what makes you think that you can outwit them?
+
+I hide my grumble. As if he's any different. He's talking down to these cultists as if they are lowborn.
+
+Humor me. Why do you think I picked you?
+Caius: Hmm, I was wondering that myself... #neutral expression
+Two reasons. [n+] One, for your mana. If this monster is summoned, I need someone to exploit its weakness. I don't channel Grace, nor do I plan on it.
+Caius: So you knew all along? #snide portrait
+Of course I did. [n+] I know who you are, your abilities, your nature, and more importantly, your origins.
+
+$ unlockCompendionEntry(ThryciaLore)
+Caius: That means, you know I'm from Thrycia... #sad expression
+I also know about your run-in with the law.
+
+I sigh remosefully. [n+] I should've expected no less from an Emissary... Why wouldn't they research their applicants?
+Though I had hoped that the Reverend and Jory had kept what happened a secret amongst themselves...
+
+# nvl clear
+
+Caius: ...How much do you know? #neutral portrait
+Enough. [n+] I know about the Dretchling, and I know about the dead Celestial. [n+] I also understand that you and the Dretchling were cutpurses at one point.
+
+Caius: ...We were. #sad portrait. [n+] You don't have...plans to arrest my friend, do you?
+That decision is not mine to make. [n+] I've partnered with murderers, arsonists, champions of Ishmael, fallen champions, it makes no difference to me. I only care about results. #TODO - recast audio line
+Morals mean nothing in the grand scheme of things. If Ishmael felt so obliged, he would get off his lofty throne and solve everything himself. But he doesn't, so his opinion means nothing to me. #TODO - Recast line
+If principles give you faith, so be it. As long as the mission is accomplished, I don't care.
+
+Caius: That's... [n+] cold. #sad portrait.
+Consider it a taste of being an Emissary. [n+] We aren't heroes, Caius. We're exterminators. [n+] Those Celestials, or Luminaries as we call them, only serve to assuage the public. #TODO - maybe recast?
+The Celestials that truly care about defending our country join our ranks. Anyone else is just a pretender.
+Caius: I believe you had a second reason for picking me?
+
+He snarls softly, but quickly recovers his stoicism. [n+] What was that about?
+
+Indeed. I picked you because I believe you are driven by regret.
+I'm not a fan of the, "righteous crusaders", or anyone with a savior complex. They may as well be infants.
+
+Something tells me he doesn't like a lot of people... I don't know if I'm a fan of him either... [n+] He's very condescending... I understand that his work is treacherous, yet I can't imagine myself ever becoming so cynical.
+Is this attitude what Jory meant by the life as an Emissary, "breaking", people?
+
+Caius: ...With all due respect sir, you are very judgemental. #angry expression
+And?
+Caius: What's wrong with wanting to protect other people? Would you prefer people to join for money alone? @angry portrait
+Yes, it's a realistic and achievable goal.
+Caius: Well, I hate to upset you, but my motivation isn't too far off from the former. [n+] Regret is a big part of it, but I want to reform our country into something better.
+Caius: That Dretchling and Jory were victims of oppression. [n+] I used to be a cutthroat, but I had a choice. My friend...no one would pay a mongrel to shine their shoes.
+Fear - it drives the weak. How unfortunate for him.
+
+Hmm, Griswyr still remains unfazed. [n+] Whenever I bring up my friend being a Dretchling, people tend to scowl, grimace, or become disgusted. I figured an Emissary would react no differently...
+Then again, Griswyr doesn't strike me as normal either. Something tells me this nocturnal expedition is just the tip of the iceberg.
+
+# nvl clear
+
+It's a pious goal, but at least it has direction.
+Caius: Sir, I must know... [n+] Are you human? #neutral portrait
+
+He blinks at me, as if I asked him the color of the sky?
+
+...What makes you think otherwise?
+Caius: I-I don't mean to be rude- #sad expression
+Save it. It's not the first time I've been asked that.
+But this will have to wait. We're almost there. # TODO - Recast line
+
+What kind of an answer is that? [n+] Not like it changes the way I see him. Though he appears to begrowing livelier the darker it gets.
+It's subtle, but his pace is quickening as the night drags on. I'm almost forced to jog just to keep up.
+Griswyr wasn't this outspoken when we met. I can understand being a night owl, but it's like the night is his element. [n+] Though if he sleeps during the day, I guess it makes sense. Much like how I'm an early riser, and rely on the sun to keep me going.
+
+Get down Caius, our quarry is in site.
+
+leave characterGriswyr
+leave 
+pause 0.5
+# #scene image #000 with dissolve
+
+# #I think here would be a good place to ask the player if they want to save their game.
+# #We can place these intermissions to let the player know they can take a break.
+# #I'm thinking we could put a prompt here, one after scene_01, and one after scene_04
+
+jump scene_03timeline/

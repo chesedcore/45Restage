@@ -1,0 +1,1582 @@
+join  cult altar with dissolve
+# #play music bgm.altar_ambience
+
+The sanctum isn't too far away, and the sounds of prayer grow louder as we advance.
+When we approach, my eyes scan the room. On top of what you'd expect from a summoning circle, there is a corpse entangled in rose bushes. [n+] It's an elderly woman, and her pink eyes paint her as a hag. Is this her lair?
+An altar takes up the back portion of the room. [n+] Three bronze statuettes rest atop the podium. Each is of a woman, aging from one statuette to the next.
+The sickly-sweet smell of roses overtakes the room, and the crimson aura of Malice is thicker than the swamps in Jorunderfell.
+# #join cultist at center as cultist1 with dissolve
+# #join cultist at center_left as cultist2 with dissolve
+# #join cultist at center_right as cultist3 with dissolve
+Five acolytes stand at each position of the pentagram, too engrossed in their trance to notice us. [n+] There's no way they didn't hear the racket of our fight. They must have decided to continue the ritual and are now close to finishing.
+
+Griswyr: Looks like we made it in time.
+Caiud: I suppose we...just attack?
+Griswyr: If they're going to make it that easy. [n+] Stay back, wouldn't want you to stain your conscience.
+Caius: No please, after you. #snide portrait
+
+# #join image #000 with dissolve
+I cover my eyes, and he goes to work.
+
+# #play sound heavyslash
+# #pause 0.6
+# #queue sound sfx.thud
+Much like with the group of Thorns we just faced, the bodies here also fall like rain...
+
+# #play sound heavyslash
+# #pause 0.6
+# #queue sound sfx.thud
+I can feel the aura beginning to wane. I've had enough bloodshed for one night, maybe for a lifetime...
+
+# #play sound heavyslash
+# #pause 0.6
+# #queue sound sfx.thud
+Jory wasn't wrong about the brutality of the Emissaries. I doubt that gentle giant would stand any of this...
+
+# #join background cult altar with dissolve
+# #join Griswyr neutral at center with dissolve
+When I open my eyes, Griswyr cuts down the final Thorn. [n+] Yet the man doesn't whimper. He grins menacingly as Griswyr towers over him.
+
+Cultist: Ngh...hehehe! You have my thanks! Blood was the last thing we needed, and you spilled more than enough!
+
+Griswyr twitches. [n+] Is it my imagination, or do I spot veins bulging from his head.
+
+Griswyr: Grrr...!
+Cultist: Go on, cut me down! [n+] Mother will avenge us! You're as good as dead!
+Griswyr: Graaaahhhh!!! #with vpunch
+
+# #play sound sfx.heavyslash
+# #with bloodflash
+
+The cultist's severed head soars through the air. [n+] That swing wasn't nearly as graceful as usual. It was crude, brutish, and wild.
+When he turns, his face is twisted into a scowl.
+
+Griswyr: Goddamn it! We played right into their hands!
+Caius: They needed blood? Was this a suicide pact? [n+] That hag has been dead for awhile, and I see no one tied to the altar.
+Griswyr: It doesn't matter! Our objective has changed!
+
+# #stop music fadeout 1.5
+# #play music bgm.lethal_suspense #TODO: Add this after jam release
+# #play sound sfx.bubble1
+# #queue sound sfx.bubble2 loop
+The blood begins bubbling, and we retreat behind a pillar. [n+] A caustic scene fills the air, burning my nose.
+
+# #stop sound
+# #play sound sfx.magic_charge
+# #with maliceflash
+# #leave Griswyr
+# #scene image #cb4a4a with dissolve
+The circle glows purple, and a red mist rises from the blood. [n+] It shrouds us, obscuring our vision and surrounding us in a crimson fog.
+
+# #play sound sfx.weapon_draw
+# #show Persephone silhouette at center with dissolve #might want to zoom her out a bit
+Griswyr and I ready ourselves as a curvaceous silhouette comes into view. [n+] My mind races. Will she attack? Will she try to bewitch us? The suspense is unnerving...
+
+Caius: Ngh... #snide expression
+
+My heart pounds. I swear I can {i}feel{/i} her presence... [n+] It's soothing, alluring, and at same time, suffocating...
+I sense both an welcoming and a frightening presence from her... [n+] I've never been so relaxed, yet afraid for my life at the same before.
+
+Griswyr: That devil.... Why do I recognize her?
+Caius: You can see through the mist?
+Griswyr: My eyes are more precise than most. This is a succubus. [n+] Pfft, these people gave their lives to summon that? What a waste.
+Caius: But why?
+Griswyr: I have no clue. [n+] Time to adapt.
+
+# #play sound sfx.melee_swing
+# #we'd zoom in on the silhouette here
+I yelp as he shoves me forward. [n+] I turn in protest, only to see no one.
+I fidget as the veil starts to disperse. What does he want me to do?! [n+] Wait, succubi aren't very strong. They're spies more than anything else, so he must be testing me.
+Ok, Caius... [n+] Breathe in...breath out... [n+] You have the advantage. She's vulnerable to Grace like any other devil, and you know her tricks.
+I tremble with each step I take. [n+] I must resemble a scared child who is in over his head. She won't expect much, and it will be her demise.
+
+# nvl clear
+
+# #scene background cult altar with dissolve
+# #play music bgm.altar_ambience fadein 1.5
+# #will be lethal_suspense after jam
+# #hide persephone silhouette
+# #join persephone smirk at center with dissolve
+
+I gulp when her true form appears. [n+] I sense no threat from her. Her eyes aren't cross, and there isn't disgust or bloodlust in them.
+Careful, Caius, eyes above the chest. Stare too long, and you'll become enthralled...
+My mouth opens, but no words leave. I feel breathless. [n+] If I enter any stance, my guise will be blown. If she lunges first though, I'll be defenceless...
+Ugh, to hell with duplicity! I'll engage her before she can-
+
+# nvl clear
+
+Voice: ...Did you kill her children?
+Caius: Uhh..! #snide expression
+
+Oh no! We're surrounded by corpses! There's no way she won't suspect anything now...
+Damn it! How could I be so careless?! All I've done is give her an opening! [n+] Wait...no reaction. She isn't drawing a weapon or anything...
+Hell, she's smiling! It's one of amusement, not malevolence.
+
+Voice: Hehehe! Relax! They're in a better place now. [n+] Besides, there's no blood on {i}your{/i} hands. Looks like I'm outnumbered. #italicze your
+Caius: Ugh, right...
+Voice: So, what am I dealing with here? [n+] Celestial? [n+] Exorcist? [n+] Adventurer who's in over his head?
+Caius: Emissary.
+Voice: Really? You, one of those cutthroats? [n+] Ohhh, it's your first day isn't it?
+
+She carries on like a waitress in a tavern. [n+] Had she hidden her horns and wings, I might've forgotten she was a fiend...
+
+Caius: It's been quite an experience...one I would like to put to bed.
+Voice: So, are you going to kill me?
+Caius: Or send you back to Hell. I prefer the latter to be honest.
+Voice: Aww, how thoughtful! [n+] Buuut....
+
+# #play sound sfx.charm
+# #with charmflash
+
+Caius: Gnnnghhh...! #snide expression, with vpunch
+
+Her eyes flash pink, and my head throbs. [n+] It feels like a hand is squeezing my head, forcing my mind to bend to her will... [n+] Except it won't work!
+She caught me off guard, but my mind won't bend so easily. [n+] I faced many temptations when I took my vow, her magic is pitiful in comparison.
+I'll let her think she has the upper hand...for now. [n+] Besides, compulsion magic has a fatal flaw\: it cannot force its victim to channel mana nor harm themself.
+My stance relaxes. As long as her spell persists, I'll have to act like her most devoted companion. [n+] I'm not too experienced with acting, but I can at least give Griswyr a show.
+
+Voice: See? Isn't that better? You can call me Persephone, what's your name?
+Caius: ...Caius.
+Persephone: Hmmm, that doesn't sound familiar... Where are you from?
+Caius: ...Thrycia?
+Persephone: That mound of dirt? Wow! That place is older than me! [n+] Though I haven't been around that long...
+Caius: ...How old are you?
+Persephone: Rude! We just met! Don't you know not to ask a lady her age?
+Caius: ...My apologies. ...It appears your magic is working too well.
+Persephone: Pfft! I softened you up, I didn't remove your manners...
+Persephone: I've been around for...twenty years? I'm unsure... Time flows differently in Hell. [n+] Don't worry, I'm very mature for my age, hehehehe!
+
+Devils are immortal, so twenty years was hardly a drop in the bucket for them. [n+] Her soul must not have fallen too long ago. So in tandem with being alone, she's also not as experienced.
+
+Persephone: I don't have any intention of hurting you or whoever is lurking in the corner. I just have an, "errand" to run. [n+] You won't even know I was here!
+Caius: ...What kind of errand?
+Persephone: Nothing special, I just need to touch base with a certain someone. [n+] Would you happen to know a man named Jory? He's a giant! You couldn't have missed him! I think he's still living in Jubilee...
+
+My heart accelerates!
+
+Caius: Wh-What do you want- #angry expression
+
+Calm down, Caius. You're supposed to be pulling her leg.
+
+Caius: I-uh, I mean...I think he left several years ago. [n+] Poor man was wrought with grief. They say he fell in love with a Meropian.
+# #$ unlockCompendionEntry(MeropianLore)
+Caius: I never believed the rumors, but he wasn't the same after one was executed. [n+] I prayed for his soul, but that was the only interaction I ever had with him.
+
+Her smile curls into a frown, and her eyes widen. [n+] Every mention of Jory pains her. But why? He never worshiped Hecate... [n+] Did he?
+
+# nvl clear
+
+Persephone: Oh, that's...too bad. [n+] And where did you say he was headed?
+Caius: ...A small village to the west of Jubilee. ...I guess he wanted to get away from everything.
+Persephone: Huh, I see.
+Caius: Right.
+Persephone: Right...
+Caius: Mhm... #snide expression
+Persephone: Mm...hm.
+Caius: ...
+Persephone: ...
+
+# #hide persephone
+# #join persephone angry at center
+Persephone: You lying piece of shit!
+
+# Raagyuo: If possible, I would like to make this scene work without any narration.
+# So I'm thinking, maybe the screen zooms in to emulate Caius attacking, and then darts back as he's shunted backwards
+# In summary, the screen will demonstrate Caius attacking, than being slammed backwards
+
+# #camera:
+# #subpixel True xzoom 1.0
+# #pos (0, 0) zoom 1.0
+# #ease 0.20 pos (-531, -180) zoom 1.52
+# #ease 0.33 pos (0, 0) zoom 1.0
+# #with Pause(0.63)
+# #camera:
+# #pos (0, 0) zoom 1.0
+# #play sound sfx.lunge
+I lunge!
+
+# #play sound sfx.whoosh
+Caius: Wh-Whoooa..!
+
+# #play sound sfx.heavy_crash
+# #with hpunch
+
+I collide with the wall, knocking the wind out of me...
+What was that....? [n+] It felt like leaping into a tornado. I got shunted backwards as if I were a toy...!
+I didn't see her conjure any mana...though she hasn't wielded any while charming me either. [n+] If no mana is used, it must be innate. But I don't recall succubi being able to manipulate the wind.
+
+Persephone: You thought you could pull a fast one on me?! I'm a devil, goddamn it!
+Persephone: All things considered, I thought your little act was adorable. [n+] Until you lied about HIM!
+
+# #play sound sfx.magic_charge
+# #with maliceflash
+When she snarls, Malice oozes from her eyes. [n+] She must notice because she shakes her head and resumes her smirk.
+
+# #hide persephone
+# #show persephone smirk at center
+Persephone: So...let's try this again. [n+] Where's Jor-
+
+play sound sfx.slash
+
+# #Ragyuo: I'm thinking Griswyr would come in from the top and appear at the left / right of Persephone
+# #Normally I'd use a moveintop command, but maybe you have a better idea?
+# #hide persephone
+# #show Griswyr neutral:
+# #subpixel True 
+# #ypos -0.18 
+# #easein_bounce 0.27 ypos 1.0 
+# #with Pause(0.37)
+# #show Griswyr neutral:
+# #ypos 1.0 
+
+# #will be combat later
+Gryswyr jumps down from the ceiling, grazing her cheek with his blade.
+
+play sound sfx.thud
+He lands then swings at her neck...
+# #Maybe zoom Persephone back? Or to the opposite direction?
+
+# #window hide
+# #camera:
+# #subpixel True xzoom 1.0 
+# #xpos 0 zoom 1.0 
+# #ease_expo 0.33 xpos -366 zoom 1.21 
+# #with Pause(0.43)
+# #camera:
+# #xpos -366 zoom 1.21 
+Only for her to float out of the way.
+
+Persephone: Hehehe, finally showed yourself, huh? I take it you're his boss?
+Griswyr: Now I've figured you out.
+Persephone: Eh?
+Griswyr: Your cult was very adamant about bringing you here, so adamant that they were ready to die. [n+] And for a lowly sex devil? That made no sense.
+Persephone: Oh, so we're going there... [n+] Sorry, Snowflake, but you aren't my type.
+Persephone: Here's some advice\: you should reaaally learn what the sun is. You're looking a little pale~.
+
+Griswyr: Then you brought up Jory, a man shrouded in rumors. [n+] They say many things about him. How he knew {i}The Reckoning{/i} would happen. How he fell in love with a gar who worshiped Hecate.
+Persephone: Gar...?
+Griswyr: They say her death throes shook The Third so much that he hired double the protection, and they also say a succubus was the one who dragged him into Hell. Which means...
+g You're the banshee who caused the Reckoning!#with vpunch
+
+I shudder. Could she have been that SAME monster who caused so much chaos?!
+She sighs grumpily and claps her hands slowly.
+
+# nvl clear
+
+Persephone: Look at that, you blew my case wide open... So much for the surprise... [n+] You must be fun at parties, Snowflake. A reeeeal crowd pleaser...
+Griswyr: It was hardly a secret. Even the boy would've figured it out eventually.
+
+# #play sound sfx.weapon_draw
+He draws his hatchet and throws an arm in front of me.
+
+Griswyr: Stay back. You are no match for her.
+Caius: But- #Sad portrait
+Griswyr: I've pushed you into danger twice tonight, but only because I knew you could overcome it. [n+] This fiend is much stronger than a succubus. You'll only get in the way.
+Caius: Griswyr, she'll just revive in Hell if I don't-
+Griswyr: You talk too much! Do you forget that the enemy is right there?!
+
+What does he mean? [n+] Oh wait, she might not know I can wield Grace. By Ishmael, this is not my night...
+
+Caius: Alright then, I'll watch for any more Thorns.
+Griswyr: That's the smartest thing you've done all night. [n+] And as for you...
+Griswyr: I will have those wings, banshee! Scream if you must! #with vpunch
+
+# #stop music
+# #play music bgm.reckoning_I
+# #play sound sfx.lunge
+# #Ragyuo: If an animation is needed, maybe Griswyr would zoom in towards her?
+
+# #join Griswyr neutral:
+# #subpixel True xpos 0.0 
+# #parallel:
+# #zoom 1.0 
+# #linear 0.21 zoom 1.0 
+# #linear 0.19 zoom 0.74 
+# #parallel:
+# #alpha 1.0 
+# #linear 0.17 alpha 1.0 
+# #linear 0.21 alpha 0.0 
+# #parallel:
+# #blur 0.0 
+# #linear 0.17 blur 8.35 
+# #with Pause(0.50)
+# #show Griswyr neutral:
+# #zoom 0.74 alpha 0.0 blur 8.35 
+
+He leaps towards her, and she shakes her head.
+
+# #leave Griswyr
+# #join persephone smirk at center with dissolve
+Persephone: Good grief, did you learn nothing from your friend?
+
+She waves her hand, and a gust of wind shields her.
+# #join Griswyr behind Persephone
+Griswyr lands and skirts behind her.
+
+# #show persephone smirk:
+# #subpixel True 
+# #xpos 0.5 
+# #linear 0.23 xpos -0.5 
+# #with Pause(0.33)
+# #join persephone smirk:
+# #xpos -0.5 
+
+# #play sound sfx.weapon_draw
+# #hide persephone
+# #show Griswyr neutral at center
+She gasps as his sword hisses through the air.
+
+Griswyr: Die!
+
+# #Ragyuo: So the idea is that she used aeromancy as a launching pad
+# #Currently unsure as to how to make this work. Maybe move her out quickly? We'll see
+He cleaves, only to cut air.
+That wasn't a hover... She {i}propelled{/i} herself out of his reach.
+To move so gracefully, I think I get it now. [n+] I'm not too experienced with magic, but considering that mana is involved, it should function the same.
+The more you practice wielding it, the less mana you consume. Much like exercising a muscle, mana needs to be nurtured. [n+] She must've incorporated Aeromancy into her fighting style. Impressive!
+I suppose it was unwise of me to try and generalize about how devils fight...
+
+# nvl clear
+
+# #leave Griswyr
+# #join persephone smirk at center
+p Fine, fine... You wanna play rough?
+
+# #play sound sfx.dagger_draw
+Five, razor-sharp claws spring from her fingertips.
+She hunches forward, mimicking Griswyr's stance. [n+] He does not appreciate that.
+
+Griswyr: ...Are you mocking me?
+Persephone: What?
+Griswyr: You copied my stance!
+Persephone: ... [n+] Snowflake, I just met you. Never heard of you either. [n+] Guess you're not that important~.
+Griswyr: Hmph!
+
+# #play sound sfx.parry
+# #Ragyuo: Not sure how to animate this. Maybe using hpunch alongside the sfx will be enough?
+# #The upcoming scene is basically Griswyr trying and failing to cut Persephone. What are your thoughts?
+
+# #camera:
+# #subpixel True 
+# #xpos 0 
+# #linear 0.04 xpos 18 
+# #linear 0.07 xpos -20 
+# #linear 0.11 xpos 39 
+# #linear 0.02 xpos 0 
+# #with Pause(0.34)
+# #camera:
+# #xpos 0 
+
+They both spring forward, claws dragging across steel when they clash. [n+] While their stances are similar, their techniques aren't.
+
+# #camera:
+# #subpixel True 
+# #parallel:
+# #xpos 0 
+# #linear 0.07 xpos -18 
+# #linear 0.08 xpos -18 
+# #linear 0.08 xpos -324 
+# #linear 0.10 xpos -60 
+# #linear 0.10 xpos 0 
+# #parallel:
+# #zoom 1.0 
+# #linear 0.07 zoom 1.23 
+# #linear 0.05 zoom 1.23 
+# #linear 0.31 zoom 1.0 
+# #join persephone smirk:
+# #subpixel True 
+# #xpos 0.5 
+# #linear 0.07 xpos 0.41 
+# #linear 0.13 xpos 0.51 
+# #linear 0.03 xpos 0.39 
+# #linear 0.10 xpos 0.5 
+# #linear 0.10 xpos 0.5 
+# #with Pause(0.53)
+# #camera:
+# #xpos 0 zoom 1.0 
+# #show persephone smirk:
+# #xpos 0.5 
+
+As Griswyr spins in a flurry of swings, Persephone keeps evading his efforts before retaliating.
+Griswyr attacks viciously, but Persephone appears more relaxed. [n+] She might just be trying to lure him into lowering his guard, or trying to antagonize him...
+
+# #camera:
+# #subpixel True 
+# #parallel:
+# #xpos 0 
+# #linear 0.07 xpos -18 
+# #linear 0.08 xpos -18 
+# #linear 0.08 xpos -324 
+# #linear 0.10 xpos -60 
+# #linear 0.10 xpos 0 
+# #parallel:
+# #zoom 1.0 
+# #linear 0.07 zoom 1.23 
+# #linear 0.05 zoom 1.23 
+# #linear 0.31 zoom 1.0 
+# #join persephone smirk:
+# #subpixel True 
+# #xpos 0.5 
+# #linear 0.07 xpos 0.41 
+# #linear 0.13 xpos 0.51 
+# #linear 0.03 xpos 0.39 
+# #linear 0.10 xpos 0.5 
+# #linear 0.10 xpos 0.5 
+# #with Pause(0.53)
+# #camera:
+# #xpos 0 zoom 1.0 
+# #join persephone smirk:
+# #xpos 0.5 
+Strike after strike comes from Griswyr, but not one lands on Persephone..
+
+# #camera:
+# #subpixel True 
+# #parallel:
+# #xpos 0 
+# #linear 0.07 xpos -18 
+# #linear 0.08 xpos -18 
+# #linear 0.08 xpos -324 
+# #linear 0.10 xpos -60 
+# #linear 0.10 xpos 0 
+# #parallel:
+# #zoom 1.0 
+# #linear 0.07 zoom 1.23 
+# #linear 0.05 zoom 1.23 
+# #linear 0.31 zoom 1.0 
+# #join persephone smirk:
+# #subpixel True 
+# #xpos 0.5 
+# #linear 0.07 xpos 0.41 
+# #linear 0.13 xpos 0.51 
+# #linear 0.03 xpos 0.39 
+# #linear 0.10 xpos 0.5 
+# #inear 0.10 xpos 0.5 
+# #with Pause(0.53)
+# #camera:
+# #xpos 0 zoom 1.0 
+# #join persephone smirk:
+# #xpos 0.5 
+
+Griswyr snarls and repeats the same maneuvers.... He is the same whirling cyclone of death he was earlier, yet even his skill and fury are no match for Persephone’s otherworldly evasions. [n+] They dance around the room as I do my best to follow their movements and not get swept up in the battle.
+My heart pounds as she begins evading with growing ease.
+# #we'd probably show Persephone behind him here?
+# #leave Griswyr with moveoutright
+# #join persephone smirk at center
+After a wide swing, Griswyr stumbles forward. He's wide open!
+
+# nvl clear
+Caius: Griswyr, look out! #angry portrait
+Persephone: Good night~!
+Griswyr: ... [n+] {i}Blood Lance{/i}.
+
+# #play sound sfx.bloodlance
+A spear of blood eupts from his blade.
+
+Persephone: W-wait...
+
+play sound sfx.blood_splatter
+with bloodflash
+# #join persephone smirk:
+# #subpixel True additive 0.0 
+# #matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0) 
+# #linear 0.10 matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0) 
+# #linear 0.09 matrixcolor InvertMatrix(4.25)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0) 
+# #linear 0.07 matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0) 
+# #linear 0.01 matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0) 
+# #linear 0.10 matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0) 
+# #with Pause(0.47)
+# #join persephone smirk:
+# #matrixcolor InvertMatrix(0.0)*ContrastMatrix(1.0)*SaturationMatrix(1.0)*BrightnessMatrix(0.0)*HueMatrix(0.0) 
+
+
+Persephone: Gnnnnggggghhh!!!! #with vpunch
+
+# #Ragyuo: If you think some movement is pertinent here, maybe have her zoom out?
+
+# #show persephone smirk:
+# #subpixel True 
+# #parallel:
+# #ypos 1.0 
+# #ease_bounce 0.27 ypos 0.89 
+# #parallel:
+# #zoom 1.0 
+# #ease_bounce 0.30 zoom 0.86 
+# #with Pause(0.40)
+# #show persephone smirk:
+# #ypos 0.89 zoom 0.86 
+It pierces her chest like a dagger. [n+] Had she not backpedaled at the last moment, it would've impaled her.
+
+# #hide persephone
+# #show Griswyr neutral with dissolve
+Meanwhile, Griswyr's arm reddens violently. [n+] I cringe. He is showing no reaction to it, but it looks painful...
+
+# #play sound sfx.hurl
+He throws his hatchet at her.
+# #move Persephone slightly, than have Griswyr hide
+extend  She sidesteps, and Griswyr...vanishes?!
+# #show griswyr behind Persephone
+He reappears behind her, alarming Persephone as he takes his hatchet in hand once again.
+# #might want to find a sfx for his flurry...
+# #Ragyuo: This is a similar situation as before where he's swinging madly and she's dodging
+
+# #camera:
+# #subpixel True 
+# #parallel:
+# #xpos 0 
+# #linear 0.07 xpos -18 
+# #linear 0.08 xpos -18 
+# #linear 0.08 xpos -324 
+# #linear 0.10 xpos -60 
+# #linear 0.10 xpos 0 
+# #parallel:
+# #zoom 1.0 
+# #linear 0.07 zoom 1.23 
+# #linear 0.05 zoom 1.23 
+# #linear 0.31 zoom 1.0 
+# #show persephone smirk:
+# #subpixel True 
+# #xpos 0.5 
+# #linear 0.07 xpos 0.41 
+# #linear 0.13 xpos 0.51 
+# #linear 0.03 xpos 0.39 
+# #linear 0.10 xpos 0.5 
+# #linear 0.10 xpos 0.5 
+# #with Pause(0.53)
+# #camera:
+# #xpos 0 zoom 1.0 
+# #show persephone smirk:
+# #xpos 0.5 
+extend  Again comes his flurry of deadly strikes, but Persephone isn't amused.
+Her wound isn't deep, but Griswyr has her on the run. [n+] She can't just float around anymore, or else he might catch her off guard again!
+He feints and as Persephone braces herself...
+
+
+# TODO: show Griswyr behind Persephone
+
+Persephone: Ah shit...! with vpunch
+Griswyr: You should've stayed in Hell, banshee!
+
+# #play sound sfx.heavyslash
+
+With his sword, Griswyr gouges her waist! [n+] Yet Persephone smiles.
+
+
+Persephone: And you should've brought silver!
+
+# #play sound sfx.galeblast
+# #pause 0.6
+# #queue sound sfx.crash
+# #with hpunch
+# #Ragyuo: Griswyr would be send off screen and the screen shakes. He got punted just like Caius did
+# #hide Griswyr with moveoutright
+A gale blast sends Griswyr crashing into the wall.
+I watch in horror! She hit him point blank! [n+] She wanted him to get close... Why else would she have relied so heavily on evasion?
+# #Ragyuo: Griswyr would ease back in here
+# #hide persephone
+# #show Griswyr neutral at center with easeinbottom
+# #combat
+Griswyr snarls and recovers. [n+] He may seem unharmed, but his breaths are heavy as he clutches his chest.
+
+Caius: That's enough, Griswyr! Let me handle this! #angry portrait
+Griswyr: Nnngh... [n+] Just who do you think you are?! I'm your superior!
+Caius: And as my superior, you must test me. Consider this another trial.
+Griswyr: Grrr...
+Persephone: By Ishmael, you're pious, I'll give you that...
+
+Griswyr's temperament is much more aggressive than before. [n+] He isn't cool and collected anymore, and he eyes me as if I were his foe.
+And now that I think about it, he did lose his temper earlier, when he beheaded that cultist...
+
+Griswyr: ...Very well. She is yours. Do not disappoint me.
+Persephone: Hehehe, you ought to watch your mouth, Snowflake. Someone might get the wrong idea~.
+Caius: Thank you, Griswyr. I won't let you down! #happy portrait
+
+# #Ragyuo Maybe she would zoom in a little? Or have the screen shake slightly to simulate him approaching her?
+I ready my stance then slowly walk towards her.
+# #Idk how we'd simulate them circling each other, though if you got any ideas let me know
+# #hide Griswyr
+# #show persephone smirk with dissolve
+We circle each other, our eyes not breaking contact. [n+] She could pounce at any moment, yet all I continue to get from her is that scheming grin.
+Even now, she's still choosing to toy with us. Something tells me she's a lot stronger than what she's letting on...
+
+Persephone: So... [n+] what did they tell you about me?
+Caius: Nothing much. Just that you dragged The Third into Hell... #sad portrait
+Persephone: Are you sure that was me? It could've been one of my sisters. We all look alike, after all~. [n+] Come on... This is all a misunderstanding! I didn't do anything...I just want to check up on an old friend...
+
+My blood freezes with anger.
+
+Caius: ... [n+] You mean my friend?! #angry portrait
+Persephone: Well... [n+] If his name's Jory, then-
+
+# #play sound sfx.jab
+# #with graceflash
+# #hide persephone
+# #show persephone angry at center
+extend Grrrr!!! with vpunch
+
+Too slow! [n+] She recoils heavily from that blow, even more than when she got stabbed!
+The mana flows in me alongside my fury. [n+] I don't know what she wants with him, but I don't care.
+Jory has only wanted to help others. He doesn't deserve to be pestered by the likes of her!
+
+# nvl clear
+
+Caius: Keep my friend's name...out of your mouth! #angry portrait, with vpunch
+
+# #play sound sfx.jab
+# #pause 0.6
+# #queue sound sfx.jab
+# #pause 0.6
+# #queue sound sfx.jab
+# #Ragyuo: For reference if you're familiar with Wing Chun, or Kung Lao from Mortal Kombat, Caius is jabbing her like them.
+# #If not, think of something like gatling fists or something. We can discuss later
+# #His hands are also glowing blue from his mana. I'd rather not make the screen flash with every punch.
+# #Animation wise, I leave it up to you if you want to add anything
+# #play sound sfx.rapidfirepunch
+# #shake Persephone if anything
+She twitches and staggers with each consecutive blow to her chest. [n+] My strikes fly as quickly as Griswyr's swipes, maybe even faster!
+# #play sound sfx.rapidfirepunch
+# #maybe push her back a bit?
+I manage to back her into a corner. Good. I need to finish this before she stops holding back. [n+] And I don't want her hurting Jory or anyone else.
+# #play sound sfx.magic_charge
+# #with maliceflash
+Eventually, she musters her Malice and retaliates!
+# #maybe zoom in closer to simulate their clench?
+# #play sound sfx.magic_charge
+# #with whiteflash
+extend  I block the blow with my own, the clashing manas dispersing whilst our palms are clenched.
+Our brows furrow, eyes locked onto one another. [n+] Her whimsical smile twists into a scowl. Looks like she's not having fun anymore.
+
+
+Persephone: Grrr...so that's why he picked you. [n+] Snowflake's soul is too black to ever wield Grace. He needed a proxy, how clever...
+
+Caius: Why are you surprised? [n+] I can't be the only Emissary who channels Grace.
+
+# #hide persephone
+# #show persephone smirk at center
+Persephone: Hahaha! If you only knew!
+
+# #play sound sfx.weapon_swing
+She breaks out of our hold and slashes. [n+] I breathe deeply...
+# #play sound sfx.block
+And catch her clawed wrists mid-swing.
+
+# #hide persephone with moveoutright
+# #play sound sfx.potterycrash
+# #with vpunch
+She gasps as I spin and hurl her onto the altar. [n+] She lies splayed among the fractured statuettes.
+# #show persephone angry at center with moveinbottom
+# #zoomed out Ragyuou
+She pushes herself up, furious, as I waggle my finger.
+
+
+Caius: Blasphemer! Mother will be displeased! #happy portrait
+Persephone: Wise ass, huh...?!
+
+# #play sound sfx.galeblast
+# #pause 0.6
+# #queue sound sfx.potterycrash
+She summons the wind and blasted the table, sending debris my way.
+# #Ragyuo: Not sure how to go about this. Debris is flying at him. Maybe a screen shake and a sfx will be enough?
+# #Or zoom out, and shake the screen?
+# #play sound sfx.lunge
+# #pause 0.6
+# #queue sound sfx.block
+# #pause 0.6
+# #queue sound sfx.block
+# #pause 0.6
+# #queue sound sfx.block
+extend  I jump out of the way and managed to block the projectiles.
+I land, trying to regain my bearings, but my pause leaves me open.
+
+# nvl clear
+
+# #play sound sfx.galeblast
+# #pause 0.6
+# #play sound sfx.heavy_bam
+Caius: Gahhh! #snide portrait, with vpunch
+
+Her second gale that hits me hard... It feels like getting kicked by a mule!
+# #have her zoom in
+# #hide persephone
+# #show persephone smirk at center
+# #play sound sfx.lunge
+She springs at me, but I block her attack and throw her a second time. [n+] She lands hard again but recovers quickly and braces herself against the wall.
+Again she lunges.
+# #maybe her sprite would hop to simulate the pounce
+extend  And feints, her flapping wings frightening me and nearly causing me to stumble. What is she going to do now?! I don't have the time to-
+
+Griswyr: What are you doing?! [n+] Attack!!! with vpunch
+
+I obey.
+
+# nvl clear
+# #play sound sfx.jab
+# #with graceflash
+# #hide persephone
+# #show persephone angry at center
+p Nuagh...! #with vpunch
+
+I understand now. I can do more than harm her with my attacks - I can also block her attacks with my own!
+# #Ragyuo: Gatling punch spam again.
+# #play sound sfx.rapidfirepunch
+I double down on my efforts, both striking blows and preventing her attacks as they come. A barrage of my strikes batters her chest.
+
+Persephone: Nnnnnnggghhhh....!
+
+I'm using a lot of mana and energy, but I can't let up! [n+] I can't risk giving her another opening! Our lives are on the line, and the lives of others as well.
+
+# #play sound sfx.galeblast
+# #Have her zoom out, than back in to simulate Caius chasing her
+She tries to retreat by blasting the ground, but I continue to pursue her.
+# #with graceflash
+extend  As strong as she might be, my Grace tore through her like a venom.
+I keep going.  I've trained my arms and legs to ceaselessly land consecutive blows. Stamina isn't an issue!
+# #have her zoom out
+She finally manages to break away, but she writhes in damage and pain.
+# #have the sprite move slightly to simulate her writing
+extend I see my mana taking its toll. Each blow makes her twitch and shiver. I almost pity her.
+
+# #zoom in slightly
+I step towards her, ready to end this. Ishmael knows how mangled her soul must've been after Hecate got her hands on it... [n+] It saddens me...
+
+# #play sound sfx.magic_charge
+# #with graceflash
+
+I close my eyes and clasp my hands. [n+] She should have enough of my Grace within her. With a flex of my hands, it'll explode. She won't feel a thing.
+
+Caius: ...Farewell.
+Persephone: ...Is that pity in your eyes? [n+] Aww, how noble! Though not showing kindness to your friend? That's pretty cold...
+Caius: ...?
+Persephone: Oh no, I'm not talking about Snowflake. Though you're probably the only friend he has ehehehehe!
+# #hide persephone
+# #show persephone smirk at center
+extend I can read it in your eyes. You're not motivated by zeal; you're motivated by regret.
+
+Caius: So what? #angry portrait
+Persephone: So what? You know that we fiends can peer into your past, right?
+Caius: Huh?! #angry portrait
+Persephone: Uh oh, guess not~. [n+] Well I can understand Jory not knowing, but Snowflake? Tsk tsk, how irresponsible~!
+Griswyr: Do not humor her, Caius!
+Caius: You lie! #angry portrait
+Persephone: Ahahahaha! Why else would people sell their souls? [n+]  It's because we see everything! Your regrets, what you care about, and what haunts you. It's all an open book!
+Persephone: Aww, what's with the long face? You were looking so high-and-mighty just a moment ago... [n+] I'm guessing I lost your sympathy?
+
+If Griswyr knowing about my past unnerved me, Persephone knowing about it took the cake! [n+] How could I not realize?! I'm no scholar, but I've looked far and wide for knowledge about devils, and yet I’ve never heard of this power!
+More importantly, she knows about [b]HIM!!!![/b]
+
+Persephone: Ah yes, you let someone down. [n+] How else would've you have made it this far? You were a nobody until you threw him to the wolves!
+Persephone: That's pretty wicked! And now you starve yourself to get pity from everyone. [n+] Hahaha, you holier-than-thou types always have the darkest secrets! Watching your souls fall is soooo delicious~!
+Griswyr: Strike her down, goddamn it!
+Caius: Grrr! Be quiet, devil! #angry portrait, with vpunch
+
+# #have Persephone zoom out and back in
+# #play sound sfx.melee_swing
+
+Persephone: Whoa, whoa....what's swatting at me going to do? I'm not the one who abandoned him...
+Caius: You...  [n+] You leave him alone, monster! #angry portrait with vpunch
+
+# #have Persephone zoom out and back in
+# #play sound sfx.melee_swing
+
+Persephone: Oh, your friend? Hmm, I'm sure he's much different now. People change when their hearts are ripped out.
+
+# #have Persephone zoom out and back in
+# #play sound sfx.melee_swing
+
+Caius: Tell me, Persephone! #angry portrait
+
+# #have Persephone zoom out and back in
+# #play sound sfx.melee_swing
+
+Caius: Hecate calls herself the mother of outcasts, a protector of the damned! #angry portrait
+# #have Persephone zoom out and back in
+# #play sound sfx.melee_swing
+extend  But you're just like any other devil! You'd corner and bewitch the same people you claim to care about!
+Caius: The Dretchlings suffer enough without your poison! #angry portrait
+Griswyr: Stop talking, Caius-
+Persephone: Ohohoho! You have it backwards! [n+] We don't corrupt people, we [i]save[/i] them from the lies of your absent Archlords.
+
+# #have Persephone zoom out and back in
+# #play sound sfx.melee_swing
+
+Caius: Damn you!!! #angry portrait, with vpunch
+
+# #zoom in, they're locked again
+# #play sound sfx.magic_charge
+# #with whiteflash
+
+Our manas clash as we clench again. My eyes beam at that grinning monster!
+play sound sfx.magic_charge
+with graceflash
+extend My Grace spikes. It must sting her severely, yet she only grins more.
+
+Caius: You and that goddamned archfiend aren't any different! [n+] Why else would she reside in Hell?! #angry portrait
+
+Persephone: Right, because your god's any better? [n+] Who were the Celestials founded under? Oh, he must've been cruel to allow his followers to imprison Dretchlings like cattle.
+Persephone: Yet we're the bad guys for coming to their rescue? How is that fair? [n+] Face it, your precious Archlords don't care about you!.
+Persephone: Now that I think about it, looks I have TWO errands to run!
+
+Caius: I'll end you- #angry portrait
+play sound sfx.grapple
+extend  Agh! #angry portrait, with vpunch
+
+# #have her increase in y-axis?
+A hand grabs my throat, and she hoists me above her.
+My mana vanishes alongside my breathing! I can't channel it if I can't breathe...!
+
+Persephone: Though while we're talking about fibbing, I wasn't entirely honest with you. [n+] You see, we devils can't read people;s pasts. So I appreciate the information~.
+
+Caius: Gngh!!! #snide portrait, with vpunch
+
+My heart skips, and she giggles darkly.
+
+# nvl clear
+
+Persephone: You mortals will believe anything. Just like false seers, we only need to paint a picture broad enough to apply to anyone, and suddenly you're spilling your guts for us.
+Persephone: And now you've failed him twice... [n+] Nah! You did him a favor!
+
+# #play sound sfx.magic_charge
+# #with maliceflash
+Wind blasts me from her grip, and she channels Malice and winds in her other hand.
+
+Persephone: I'll take good care of him, you can die now. [n+] Buh-bye~!
+
+# #Ragyuo: Not sure how to animate her here. She basically dropped Caius and leapt backwards
+# #play sound sfx.weapon_swing
+# #pause 0.6
+# #queue sound sfx.thud
+Persephone: Shit! #with hpunch
+
+# #hide persephone with moveoutright
+# #show Griswyr neutral at left with moveinleft
+# #join persephone combat
+She drops me, narrowly slipping past Griswyr's slash.
+I don't have the strength nor the courage to stand... [n+] She played me like a harp... So easily too!
+Griswyr turns to me, his eyes as stoic as ever.
+
+Griswyr: ...I thought I told you not to disappoint me.
+Persephone: Aww, did I break your friend-
+
+# #have Persephone zoom out and back in
+# #play sound sfx.weapon_swing
+Persephone: Whoa Snowflake! Lighten up, will ya?!
+# #$ unlockCompendionEntry(JinxLore)
+extend  I mean, isn't being jinxed bad enough?
+
+g ... [n+] It'll be worth it when I feast on your blood!
+
+Wh-what?! What does he mean- [n+]  Oh right, he licked his sword after it got coated in gore. He's not trying to scare her, he MEANS what he's saying... Persephone looks as dumbfounded as I do.
+
+# nvl clear
+# #hide Griswyr
+# #show persephone smirk at center with dissolve
+p Oh, oh wow... [n+] You've completely lost it... I knew you were into some weird stuff, but-
+
+# #have Persephone zoom out and back in
+# #play sound sfx.weapon_swing
+extend  Whoops! You're going to have to do better if you want my neck, you leech~.
+
+# #play sound sfx.parry
+# #with vpunch
+I watch them clash, my mind blank. [n+] How can I help Griswyr when I can't even help myself? I'll just be in the way...
+# #Queue in similar animation where Griswyr flurries, and she dodges
+All the blows I landed were because she let me... Now she's dodging and weaving past Griswyr's swipes just like before...
+She rears back.
+# #hide Persephone
+# #show Griswyr neutral at right
+extend  And Griswyr ducks behind her, readying his ax.
+
+# nvl clear
+
+Griswyr: And now you-.
+# #play sound sfx.slash
+# #with bloodflash
+extend Ngh! What the-?! with vpunch
+
+Wounds tear open in his arms. They seem to surprise him more than hurt him. [n+] I can't blame him for his shock. I didn't even see her claws land. So how did she get him?
+
+Griswyr: Tch...just a flesh wound!
+
+# #play sound sfx.hurl
+He siphons some of the blood and flings his hatchet. [n+] Persephone turns around, but he teleports in front of her, sword at the ready.
+# #play sound sfx.parry
+She catches his sword in two fingers, the blade causing blood to trickle down her hand. [n+] Griswyr winces.
+
+# #hide Griswyr
+# #show persephone smirk at center with dissolve
+Persephone: Ooh, looks like you grazed me... [n+] Go on, have a taste.
+
+# #Compared to last animation, Griswyr is slowing down.
+She releases his blade and holds out her fingers. [n+] Griswyr cringes but follows through with his swing.
+
+# #have Persephone zoom out and back in
+# #play sound sfx.weapon_swing
+Persephone: Hey now, don't be greedy...
+Griswyr: You think taunting me is going to work? [n+] I've had this curse my whole life. I am not enslaved to it!
+
+# #show persephone combatS #smile expression
+Persephone: Then why did you flinch? You might've had my head if you were faster~.
+
+# #have Persephone zoom out to simulate evasion
+# #play sound sfx.weapon_swing
+# #pause 0.6
+# #queue sound sfx.bloodlance
+# #with bloodflash
+Persephone darts backwards, and he fires another [i]Blood Lance[/i]. [n+] She swats it away with her wings.
+Griswyr's body hunches over, his breaths weighty. [n+] Every time he uses one of those attacks, he injurs himself...
+
+# #have Persephone zoom in
+# #play sound sfx.lunge
+Persephone: Wake up, Snowflake!
+
+# #hide persephone with moveoutright
+# #show Griswyr neutral at right with moveinright
+# #play sound sfx.slash
+# #with bloodflash
+He evades her pounce and hisses as more wounds rip open on his body. [n+] It was subtle, but I finally spot the source of her attack. She's channeling wind through her hands.
+So even if he dodges her blows, the gusts will still cut him.
+# #have Persephone zoom in
+# #hide Griswyr with moveoutright
+# #show persephone smirk at center with moveinright
+# #play sound sfx.lunge
+She launches herself again!
+
+Caius: Don't dodge, Griswyr, or you'll be cut by her wind! #angry portrait
+Griswyr: Grr! No shit!!! #with vpunch
+
+# #move his sprite to the left and right
+# #hide Persephone
+# #show Griswyr neutral at left with moveinright
+He spins.
+
+# #play sound sfx.parry
+# #pause 0.6
+# #queue sound sfx.slash
+# #with bloodflash
+extend His hatchet parries her claws, and his blade sinks into her side.
+
+# #move his sprite down x-axis slighty
+# #play sound sfx.grapple
+# #with bloodflash
+He digs the steel more deeply into her as his leg ensnares hers.
+
+# #play sound sfx.thud
+# #with hpunch
+# #move griswyr down more
+extend She slams into the floor, and he plants his knees atop her back.
+He leers down at her, her body resting on the bloody floor beneath them. [n+] I blink. I'm not crazy. Fangs have emerged where his canines once were.
+I shiver. The look of ferocity in his eyes...he doesn't see her as his target. [n+] He sees her as his food!
+
+Griswyr: I told you I'd have your wings, but I'll start with your neck. [n+] Even if you revive in Hell, you'll have to find your way back to our plane, and you'll become my prey again!
+Persephone: Ngh...not bad! You're {i}actually{/i} starting to scare me, Snowflake!
+Griswyr: Even now, you joke?!
+
+# #play sound sfx.slash
+# #with bloodflash
+Persephone: Gngh...! with vpunch
+Griswyr: What will it take for you to stay down?! [n+] You're like a cockroach! You sever its head, yet it still crawls!
+
+Persephone: Ohh, don't let me stop you. If you want my neck, go for it. [n+] I am your snack after all. I'm powerless to stop you. What good would any resistance do?
+
+# #play sound sfx.slash
+# #with bloodflash
+Griswyr: Shut up!!! with vpunch
+
+By Ishmael, iends are something else. [n+] Despite all her injuries, Persephone still keeps going.
+Griswyr pauses, finding both of his hands drenched in blood... [n+] He just sits there...something has gripped his heart.
+
+play sound sfx.slash
+with bloodflash
+He drives the shortsword into her again...and he pauses a second time. [n+] Try as he might, he can't seem to break her smile.
+
+Persephone: They say a predator takes the easiest approach to hunting. Even if a wolf could kill any human, it will only target the weakest link.
+Persephone: Matter of fact, wolves only hunt when they {i}know{/i} they can win. But I prefer cats. [n+] They are an exception. They hunt for sport as well as food. A cat will even choose to torment its prey before killing it.
+Persephone: They're very sadistic - at a glance. [n+] Truth is, that cat isn't torturing for fun. It's tiring the prey out to ensure that it can't retaliate.
+Persephone: Is that why you're frozen? Is it because I'm laughing off your little cuts? [n+] Or is it because your instincts won't allow you to move? with vpunch
+Griswyr: ...Enough of this! [n+] I am not enslaved by my hunger! It is enslaved by me!!! #with vpunch
+
+His jaw expands as he dives!
+
+# nvl clear
+
+Persephone: Oof... [n+] Should've listened to your gut.
+
+# #play sound grapple
+# #with vpunch
+# #hide Griswyr with moveoutbottom
+# #show persephone smirk at center with moveinbottom
+Her arms lash out and hold his head still. Her head springs forward, and my heart stops.
+# #play sound sfx.kiss
+extend She plants her lips onto his! #TODO - have Griswyr bite her.
+
+Caius: Griswyr! #sad portrait
+
+A second wind lifts me back onto my feet, and I dash toward them!
+# #play sound sfx.kiss
+extend  Her kiss is lethal! She's sapping his mana with every twist of her lips.
+# #play sound sfx.kiss
+His body wrinkles, and her wounds begin to close.
+# #zoom in
+extend She pulls away as I charge.
+
+# nvl clear
+
+p ...Oh, you're still with us?
+
+# #play sound sfx.thud
+Griswyr collapses to the floor as we engage.
+# #play sound sfx.bam
+# #pause 0.6
+# #play sound sfx.magic_charge
+# #with whiteflash
+# #with hpunch
+# #play sound sfx.bam
+# #pause 0.6
+# #play sound sfx.magic_charge
+# #with whiteflash
+# #with hpunch
+# #play sound sfx.bam
+# #pause 0.6
+# #play sound sfx.magic_charge
+# #with whiteflash
+# #with hpunch
+Sounds of hissing rattle the room. The mana screams just as violently as our blows. [n+] Yet, she suffers more than I do. Looking more closely, I see her body tremble.
+# #Ragyou more gatling fist Kung lao barrage
+# #play sound sfx.rapidfirepunch
+# #with hpunch
+My blows from earlier weren't in vain after all, but I need to keep injecting more mana into her. [n+] If this explosion doesn't kill her, I don't know if I'll get another chance!
+
+# nvl clear
+
+# #hide persephone
+# #show persephone angry at center
+Persephone: Ugh, you're so annoying! Go away!
+
+# #zoom in Persephone
+# #play sound sfx.galeblast
+# #pause 0.6
+# #queue sound jab
+I weave past her gale and jab her chest.
+I gnash my teeth whilst my palms assail her like a barrage of arrows.
+
+# #play sound sfx.weapon_swing
+# #pause 0.6
+# #queue sound jab
+extend  She swipes, but I duck and slam my heel into her sternum.
+# #shake persephone with each blow
+# #play sound jab
+Her hisses devolve to growls the more I strike her. [n+] Her eye twitches. She's reaching her limit.
+# #zoom in and out of Persephone
+She keeps trying to float backwards, but I keep stepping forward. [n+] My arms are growing heavy...I'm starting to run low on mana. I can't continue much longer...
+I need to land one good strike.
+
+# nvl clear
+
+Caius: Fall, monster! #angry portrait, with vpunch
+
+# #zoom out Persephone
+# #play sound sfx.melee_swing
+I kick and hit nothing but air...
+She flies backwards, digging her claws into the wall. She glowers, ready to attack again.
+# #play sound sfx.magic_charge
+# #with maliceflash
+extend  Malice and wind engulf her! I can't stop this...and even if I dodge...
+
+# nvl clear
+
+g You goddamned fool! What are you doing?! [n+] This battle is yours! [b]DO - NOT - FALTER!!![/b] #with vpunch
+
+...I know, Griswyr.
+
+# #zoom in Persephone
+# #play sound sfx.lunge
+# #pause 0.6
+# #queue sound heavy_bam
+Caius: Gnnnnngggggghhhh!!! #angry portrait, with vpunch
+
+I dodge, and her intense gusts bludgeon my body. I felt like I’ve slammed straight into a wall of pure force!
+Blood sputters from my mouth as several of my ribs collapse... [n+] The only reason the rest of me doesn't follow suit is because Grace protects me from most of the pain...
+It takes all of my concentration not to be swept away. [n+] And now...
+
+# nvl clear
+
+# #play sound sfx.jab
+Caius: [b]HAAAA!!!![/b] #angry portrait with vpunch
+
+I deliver a mighty blow to her chest and... [n+] nothing.
+
+# nvl clear
+
+Persephone: ...Was that your last stand? [n+] WEAK!!! with vpunch
+
+# #zoom out Persephone
+# #play sound sfx.heavy_bam
+Her Roundhouse kick sends me flying. Time stands still as I float away... [n+] I turn to her, that insipid grin peering into my soul.
+I breathe heavily, coughing up blood as I clasp my hands.
+
+# #hide persephone
+# #scene image #000 with dissolve
+
+Caius: ... #sad portrait
+Caius: Shine! #angry portrait, with vpunch
+
+# nvl clear
+
+# #scene background cult altar with dissolve
+# #stop music fadeout 1.5
+Persephone: Huh...?
+
+# #play sound sfx.manaexplosion
+# #scene image #fff with iris_in_out
+My Grace pours from her body and explodes. [n+] I can't see a thing, but this battle has ended.
+That blast tore her apart from the inside out. [n+] Against a mortal, it would just render them paralyzed, but against a devil? There's no way she survived.
+A hand caught me. It must've been Griswyr's.
+
+# nvl clear
+
+Caius: Ngh... #snide portrait
+Griswyr: Impressive. What was that?
+Caius: Agh...well each of my blows injects my mana into my opponent, disrupting their own...  [n+]And once it consumes most of their body, I can cause it to tear itself out... #sad portrait
+Caius: Agh...it hurts to talk... #snide portrait
+Griswyr: That's...violent. Color me impressed.
+Caius: Well, it doesn't kill mortals... #happy portrait
+Griswyr: Of course it- [n+] Gngh! with hpunch
+Caius: What's the matter...? #sad portrait
+Griswyr: I still smell her!
+
+# #scene background cult altar with dissolve
+As the radiance dies down, the first thing I spot are two, red eyes glaring at me... [n+] My teeth chatter. My body feels cold, exhausted, and afraid. That was my strongest technique, how did she survive it?!
+
+# #show persephone smirk at center with dissolve
+# #play sound sfx.magic_charge
+# #with maliceflash
+Malice's crimson hue shrouds her. Her stance is unsteady, however she appears more than capable to continue... [n+] I try to stand only to stumble. A stabbing pain pierces my waist...
+I could conjure Grace to numb it, but I wanted to reserve what little I had left...
+
+# nvl clear
+
+Persephone: You know, I tried to be nice... I tried to make your death quick and painless [b]BUT[/b] now I don't really care!
+Persephone: I'll give you credit, that might've killed me. Good thing Snowflake topped me off hehehe...!
+
+# #hide persephone
+# #show persephone angry
+# #play sound sfx.dagger_draw
+She hisses as her talons spring from her fingers.
+
+# #play sound sfx.magic_charge
+# #with maliceflash
+extend  Her Malice spikes. In hindsight, she didn't use up as much mana as I expected...
+
+# #hide persephone
+# #show Griswyr neutral at center with dissolve
+Griswyr seems more upset than afraid as he looks to the ground.
+play sound sfx.weapon_draw
+extend  He spits and readies his weapons.
+
+# nvl clear
+
+Griswyr: Looks like this mission is a failure, Out of all the monsters, we had to get matched up against that goddamned banshee!
+Caius: Griswyr...? #snide portrait.
+Griswyr: I'll hold her off while you crawl away. Don't worry about me, because I'm not coming back.
+
+He crosses his throat and speaks gravely
+
+# nvl clear
+
+Griswyr: This is my final lesson to you, Caius. Even in death, we Emissaries leave no trace. We'll face annihilation if that's what it takes! [n+] Do not let any information fall into the hands of the enemy! To the end!
+
+# #zoom in Griswyr
+play sound sfx.lunge
+He charges.
+extend  He startles Persephone, but she meets his advance.
+He isn't dodging...
+
+# nvl clear
+
+Caius: Griswyr, don't..! #sad portrait
+
+play sound sfx.heavyslash
+with bloodflash
+
+Her claws tear into his chest, ripping blood and flesh from his body. [n+] Yet he doesn't so much as wince.
+
+# #play sound sfx.slash
+# #with bloodflash
+# #pause 0.6
+# #queue sound sfx.grapple
+He drives his sword into her leg and wraps his arm around her waist.
+
+# nvl clear
+# #should we show Persephone's sprite?
+Persephone: What the hell are you-?! with vpunch
+
+# #play sound sfx.grapple
+He drops his hatchet before getting behind her and hooking his arms around hers, pulling up and restraining her. [n+] He clings to her like a monkey. Try as she might, Persephone can’t shake him.
+
+# nvl clear
+
+Persephone: Grr! Snowflake, I'm not in the mood! [n+] Let go!!!
+Griswyr: Ngggh...what are you doing, idiot?! Run!
+
+p Who are you calling an idiot?! You're the one who- [n+] Wait a minute...
+
+I wish I had the strength to flee... [n+] My heart weeps for him. My eyes might also weep if it didn't hurt so much to breathe...
+Even if I start crawling away, there's no way she's going to let me go. [n+] I don't know what Griswyr is planning, but if it involves his blood magic, she'll just chase me and we'll all be collateral damage.
+Best I can do is stay here and see him off...
+Persephone turns to him. I can't see what happened, but I have a bad feeling in my stomach...
+
+# nvl clear
+
+Persephone: ...Hehehe, so that's what you're up to? How naughty~. [n+] Isn't suicide frowned upon by the Celestials?
+Caius: Suicide?! #angry portrait
+Griswyr: Too late...!
+
+# #play sound sfx.magic_charge
+# #with maliceflash
+Griswyr's own Malice erupts, causing a whirring sound to hum from within him.
+# #with graceflash
+extend  Blue glyphs appear on the studs in his armor, growing brighter by the second.
+I try to call to him, try to move towards him, but my body still refuses to budge... [n+] This is horrible! Why is he dying for me?! I'm a novice, I'd be much easier to replace than him.
+After all, I can't even save myself, let alone anyone else...
+
+# nvl clear
+
+Griswyr: See you in Hell, banshee! with hpunch
+
+# #hide Griswyr
+# #show persephone angry at center
+Persephone: Ngh...
+# #hide persephone
+# #show persephone smirk at center
+extend  Yep, but not in the way you're thinking-!
+
+# #play sound sfx.slash
+# #pause 0.6
+# #queue sound sfx.grapple
+# #with hpunch
+She slits her wrist and shoves it into his maw.
+Griswyr's eyes widen and runes on his chest begin flickering. [n+] His grip loosens as his eyes shut. I hear faint sounds of suckling.
+At first he clings to her. Then slowly his grip relaxes, and she begins to cradle him.
+
+# nvl clear
+
+Persephone: I can't have you exploding on me. I'll be taking this.
+
+# #play sound sfx.heavyslash
+She tears off his vest and tosses it to the side.
+Griswyr stirs and groans. He tries to pull away.
+
+play sound sfx.grapple
+extend  But her palm around his maw clenches.
+
+# nvl clear
+
+Persephone: Now now, I'm still playing with you. Besides, you've had a long day~.
+
+# #play sound sfx.heavy_bam
+# #with vpunch
+extend  So go to sleep!
+
+She slams her knee into his chest, knocking the wind and consciousness out of him.
+# #move Persephone to the left/right
+I watch helplessly while she drags him towards the hanging corpse. [n+] She tears the grizened woman from the bushes and pins him there. What does she have in store for-
+
+# nvl clear
+
+# #hide persephone
+# #show persephone angry at center
+Persephone: Hey, shithead! We're not finished!
+
+# #should we have an animation for this? Maybe Caius's perspective shifts up by the y-axis?
+I have to use the wall just to stand... [n+] My body twitches with every movement. My lungs are on fire, and these shattered ribs are all too eager to feed me pain...
+I breathe heavily, knowing that I only have one way out of this.
+
+# #stop music
+# #play music bgm.reckoning_II
+# #play sound sfx.magic_charge
+# #with graceflash
+Grace surges from my body. [n+] With this much pouring out, I'll run out of mana in no time. hHowever I need Grace just so I can move...
+On the flip side, expending this much mana will inject more into her body. I need to blow her up again...
+Who will burn out first? Will I be able to hold up long enough to defeat her? Only one way to find out.
+
+# nvl clear
+
+Persephone: Still have some fight left in you? [n+] Good! I wasn't satisfied!
+
+# #play sound sfx.magic_charge
+# #with maliceflash
+# #hide persephone
+# #show persephone smirk at center
+Persephone: Even if you don't feel it now, your body is in agony. [n+] And that pales in comparison to what I have in store for you!
+Persephone: There's no way Jory raised someone so blind! If the Third lived, you'd kiss his boots like every other slave! [n+] You self-righteous idiots are what's wrong with this world!!! with vpunch
+
+Caius: Ngh...maybe. Maybe I am too pious... And I don't know what you went through... [n+] But I'd sooner believe in myself than an Archfiend...! #snide portrait
+
+Persephone: That's not the first time I've heard those words, and it won't be the last...
+extend Doesn't mean this won't hurt like a bitch!!! #with vpunch
+
+# #play sound sfx.block
+# #with vpunch
+I breathe deeply and block her swipe. [n+] She retreats before lunging for my legs!
+# #play sound sfx.melee_swing
+I drive my heel into her jaw.
+# #play sound sfx.slash
+# #with bloodflash
+extend  And she counters by scratching my chest. Praise Yeshua that I step back when I do...
+# #have her sprite move around to left and right
+We dance, blocking and countering each other's blows. [n+] The manas screech. Our motives are personified and continue to clash!
+# #hide persephone
+# #show Jory happy at center with dissolve
+With each punch, visions of Jory enter my mind... [n+] Is my life flashing before my eyes...?
+
+# nvl clear
+
+Jory: [i]Relax, Caius, you're always so uptight.[/i] [n+] [i]Take a load off and breathe once in a while, yeah?[/u]
+# #hide jory with dissolve
+# #play sound sfx.heavy_bam
+# #with vpunch
+# #hide Jory
+# #show persephone angry at center
+Persephone: Gaaaaahhhh!!! #with vpunch
+# #zoom out Persephone
+That attack sends her reeling. If I can just land a few more strikes like that one...
+# #zoom her out and up y-axis
+# #play sound sfx.galeblast
+# #pause 0.6
+# #queue sound sfx.galeblast
+# #pause 0.6
+# #queue sound sfx.galeblast
+# #pause 0.6
+# #queue sound sfx.galeblast
+# #pause 0.6
+# #queue sound sfx.galeblast
+She blasts herself airborne, screeching before launching a volley of gusts towards me. [n+] I lack the agility to dodge... I walk forward, blocking, deflecting, and even enduring gust after gust...
+# #play sound bam
+# #with vpunch
+Even with Grace protecting me, my body rattles with every blast...
+# #zoom in on her
+I breathe deeply before jumping up to attack her
+# #play sound sfx.grapple
+# #move screen downwards
+# #queue sound crash
+# #with hpunch
+extend  She dodges and grabs me, and I drive my mana into her as we plummet to the floor.
+
+# nvl clear
+
+# #hide Persephone
+# #play sound sfx.heavy_bam
+# #with vpunch
+# #show griswyr silhouette at center with dissolve
+Griswyr: [i]How do you expect to be an Emissary when you're so weak?![/i]
+Griswyr: [i]I was ready to die for the mission, yet here you are, ready to surrender everything you stand for![/i]
+Griswyr: [i]Fight goddamn it, even if it kills you![i]
+
+# #hide Griswyr with dissolve
+# #show persephone angry at center
+# #play sound sfx.grapple
+# #with bloodflash
+My fractured arm latches onto her face, my fingernails and Grace digging into her flesh! [n+] A shrill yelp meets my ears. More of her blood trickles down my hands as I hold on for dear life.
+# #play sound sfx.jab
+# #zoom her out a bit
+She pries my palm from her head, and I kick her off of me. [n+] I rise, my teeth bared and my eyes seeing red.
+# #zoom in
+Her gaze wavers when I sprint towards her.
+# #play sound sfx.grapple
+# #pause 0.6
+# #queue sound sfx.heavy_bam
+# #with hpunch
+extend  Her wings flap, and I grab her foot before clobbering her face.
+# #move sprite slightly
+# #play sound sfx.weapon_swing
+She squirms and slashes. [n+] Her nails graze me. I spit up blood and keep attacking.
+She isn't nearly as dangerous when you have her pinned!
+
+# nvl clear
+
+Persephone Grrrrr!!! #with vpunch
+Persephone: Ngh...struggle all you want! In the end...you'll still-
+
+# #hide persephone with moveoutright
+# #play sound sfx.hurl
+# #pause 0.6
+# #queue sound sfx.potterycrash
+I shove her jaw shut and hurl her into the table.
+# #show persephone at center with easeinbottom
+# #zoomed in slightly Ragyuou
+extend  She leaps to her feet and I approach, walking slowly.
+# #zoom in slighty
+She lunges but flinches.
+# #move her sprite from side to side
+extend  She staggers more and more with each step I take towards her.
+
+# nvl clear
+
+# #hide persephone
+# #show Priam sprite at center with dissolve
+Voice: [i]...You hate me, huh?[/i] [n+] [i]Man...I knew I messed up, but did you have to tell her about me...?[/i]
+
+...You're right.
+
+# nvl clear
+
+play sound sfx.heavy_bam
+
+Persephone: AHHHH!!!!! with vpunch
+Voice: [i]I was just trying to protect us...[/i]
+
+I know...
+
+# nvl clear
+
+# #play sound sfx.heavy_bam
+# #with hpunch
+Persephone: Gah...damn you! Ngh...!
+Voice: [i]Why did you abandon me, Caius?! I thought we were friends...[/i]
+
+...We are.
+# nvl clear
+
+# #hide Priam
+# #show persephone combat at center with dissolve
+# #play sound sfx.grapple
+She catches my last strike, deflecting it.
+# #play sound sfx.magic_charge
+# #with whiteflash
+A hand presses against my chest, with Malice hissing against my Grace...
+# #play sound sfx.jab
+# #shake Persephone sprite
+I jab her throat, causing her to spit and her breath to fly from her maw.
+# #play sound galeblast
+# #pause 0.6
+# #queue sound sfx.heavy_bam
+# #with hpunch
+extend  Yet I still get blasted...
+# #zoom out screen
+I fly backwards, doing my best to brace my fall as I land.
+extend  With an eldritch calm, I peer back at her.
+
+# nvl clear
+
+Voice: [i]You're coming back, right?[/i]
+
+...I am.
+# nvl clear
+
+# #play sound sfx.magic_charge
+# #with graceflash
+I lift my hands and clasp them together.
+With an unsteady breath, I speak
+
+# nvl clear
+
+Caius: Rest in peace...
+extend  Ngh!!! with vpunch
+
+# #play sound sfx.thud
+# #with vpunch
+# #move screen down y-axis
+Suddenly, I fall to my knees.
+extend  Intense pain floods through my veins, wracking my entire body!
+The strain prevents my hands from reaching her...I've run out of mana.
+
+# nvl clear
+
+Caius: No...not now! #sad portrait
+Voice: [i]I knew I couldn't trust you...[/i]
+
+Tears well in my eyes. There isn't anything I can do anymore...
+It looks like I've reached my limit first... [n+]  My adversary laughs triumphantly.
+
+# nvl clear
+
+Caius: Priam...I'm sorry. I tried my best...
+Persephone: Your best [b]FAILED[/b] you! #with hpunch
+
+# #hide persephone
+# #play sound sfx.lunge
+# #scene image #000 with dissolve
+
+She pounces, and I close my eyes... [n+] So be it. Someone, anyone, help him...
+
+# #play sound sfx.heavyslash
+# #screen go black
+...
+
+# nvl clear
+
+Griswyr: Caught you!
+
+# #scene background cult altar
+# #show Griswyr neutral at center
+# #combat
+Griswyr jumps down from the ceiling, his body engulfed by his Malice.
+She clutches her slashed arm, and her body convulses.
+
+# nvl clear
+
+Griswyr: Even if he couldn't finish the job, there's still a lot of Grace inside you. [n+] Seeing as how both manas repel each other, I wonder what will happen when my Malice is added.
+
+# #hide Griswyr
+# #show persephone angry at center with dissolve
+Persephone: ...Oh shit!
+
+# #stop music fadeout 1.5
+# #play sound sfx.magic_charge
+# #with graceflash
+# #play sound sfx.manaexplosion
+# #hide persephone
+# #scene image #faf7f7
+
+Before exploding just like before.
+
+# #pause 3.0
+
+I can't believe it...I survived! We won! [n+] I don't care about the buzzing pain coursing through me. Now everyone is safe from her...
+Better yet, I never realized before that Malice could also set off such an explosion...
+
+# nvl clear
+
+Caius: Griswyr... [n+] How did you know that would happen...?
+Griswyr: I didn't. [n+] It was a theory at best. Either way, her blood gave me the second wind I needed.
+
+Griswyr: Even if that didn't kill her, she was more than injured enough to...
+extend  [b]WHAT THE FUCK?![/b] with vpunch
+
+# #scene background cult altar with dissolve
+# #show Griswyr neutral at center with dissolve
+# #combat
+The lingering effects of the explosion dissipate and Griswyr stomps furiously. [n+] Persephone was defeated, so what is setting him off?
+
+# nvl clear
+
+Griswyr: [b]HOW THE HELL DID SHE ESCAPE?![/b] with vpunch
+Caius: Wh-wha...? #snide portrait
+
+I look to the floor and gasp. There are no remains, no body, no sign of her. Persephone is gone!
+
+# nvl clear
+
+Griswyr: [b]GODDAMN IT! SHE WAS A NUISANCE BEFORE, ISHMAEL FORBID HOW HARD SHE'S GOING TO BE TO TRACK NOW!!![/b] #with vpunch
+
+Caius: How...how do you know she escaped... #sad portrait
+Griswyr: [b]DON'T YOU THINK I'D TELL YOU IF I KNEW?![/b] #with vpunch
+extend Damn it to hell! That Banshee will cause a panic if people learn she's back in our plane...
+Griswyr: Ishmael knows what she's plotting! A second reckoning?! Summoning that Archfiend...
+extend [b]GRAAAAH!!! THIS IS HORRIBLE!!![/b] with vpunch
+
+A voice booms into my ear.
+
+# nvl clear
+
+Persephone: [i]...Looks like you win this time. [n+] Don't worry, I'll leave Jory be, just as you wished. Anything to get away from you...[/i]
+Persephone: [i]If you see me again, do a girl a favor, and just keep walking![/i]
+Caius: ...Griswyr. #sad portrait
+Griswyr: What is it?!
+
+Caius: Don't... [n+] tell... [n+] Jo- #sad portrait
+
+# #play sound sfx.thud
+# #scene image #000 with Dissolve(1.0)
+# #pause 3.0
+jump scene_06timeline
+# #ask player to save game

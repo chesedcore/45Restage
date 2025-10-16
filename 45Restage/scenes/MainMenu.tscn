@@ -1,0 +1,71 @@
+[gd_scene load_steps=4 format=3 uid="uid://cfhwwc3apdqbc"]
+
+[ext_resource type="Script" uid="uid://crly8qh8ij18d" path="res://scripts/trivial/main_menu.gd" id="1_2wh52"]
+[ext_resource type="Texture2D" uid="uid://8l2q1u0rnldk" path="res://assets/cult_altar.png" id="1_yqorp"]
+[ext_resource type="Script" uid="uid://bwrgff0tua5t6" path="res://scripts/buttons_container.gd" id="2_0ykhv"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_2wh52")
+
+[node name="BG" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_yqorp")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Title" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 274.0
+offset_top = 57.0
+offset_right = 851.0
+offset_bottom = 126.0
+theme_override_font_sizes/normal_font_size = 50
+text = "March of the Emissaries"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonsContainer" type="HBoxContainer" parent="." node_paths=PackedStringArray("start_button")]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 563.0
+offset_right = 593.0
+offset_bottom = 612.0
+theme_override_constants/separation = 20
+script = ExtResource("2_0ykhv")
+start_button = NodePath("Start")
+
+[node name="Start" type="Button" parent="ButtonsContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Start"
+
+[node name="Load" type="Button" parent="ButtonsContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Load"
+
+[node name="Options" type="Button" parent="ButtonsContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Options"
+
+[node name="Quit" type="Button" parent="ButtonsContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Quit"
+
+[connection signal="pressed" from="ButtonsContainer/Start" to="ButtonsContainer" method="_on_start_pressed"]

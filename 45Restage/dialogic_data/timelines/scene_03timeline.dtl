@@ -1,0 +1,142 @@
+#scene background cave entrance with fade
+    #play music bgm.night_ambience
+
+    As we brush past the thickets, we come upon a cave. [N+] There's an eerie, pink radiance leering at me from within.
+    What catches my eye, however, are the roses. [N+] The outskirts of the area are decorated with bushes of purple roses: Hecate's symbol.
+    To be so bold as to place your beliefs out in the open, especially when growing any type of rose is forbidden... [n+] Does their faith inspire that audacity, or do they have a reason to be so open?
+
+    #join Cultist at center with dissolve
+
+    To the side of the entrance stands a man cloaked in purple robes, nodding off. If he's on watch, he's doing a poor job...
+    Griswyr and I crouch beneath the bushes. The Thorn continues his daydreaming, mumbling to himself.
+
+    # nvl clear
+
+    Cultist: Oh man, tonight's the night! We can finally take back what's ours! [n+]  Those damned Celestials chased us out of the city, and for what?! I baked bread! Worshiping mother wasn't hurtin' nobody!
+    Cultist: But damn, why did I get stuck outside? I wanna see her emerge on that altar. Gotta make sure she's given a warm welcome!
+    Cultist: Well, she'll be out soon enough. There's no sign of any Celestials, guess I can take it easy until then. After all, chanting is hard work...
+
+    He really enjoys talking to himself... [n+] And the ritual must be close to completion.
+
+    window hide
+
+    #leave Cultist with dissolve
+    #join Griswyr neutral at center with dissolve
+
+
+    I turn to Griswyr and, shudder..He's on all fours! [n+] And he's eyeing the cultist like a wolf would at a deer...
+
+    Griswyr: Alright recruit, deal with him.
+    Caius: Wh-What?! Just by myself?! #snide expression
+    Griswyr: Did I stutter?
+    Caius: Shouldn't we move together? We don't have much time... #neutral portrait
+	Griswyr: There's no guarantee that we'll make it. And I wish to see what you're capable of. Now go!
+    Caius: Ugh, yes sir... #sad portrait
+
+    #leave Griswyr with dissolve
+    #play sound sfx.forestfootsteps loop
+
+    I stumble out from the bushes. I was prepared to fight, but not by myself...
+    Alright, what's my plan? [n+] Perhaps I could rush him. If I'm quick, I could knock him out and slip inside. [n+] But what if there are others watching from deeper inside? I can't see anyone from the other side, yet I would still be risking getting swamped by an ambush.
+    Hmm, maybe I could convince them to let me inside? Many have called me a monk, so I could claim I'm a pilgrim of Hecate... [n+] But I don't know anything about Hecate's faith. If they test me, I won't-
+
+    #stop sound
+    #join Cultist at center
+
+    Cultist: Who the hell are you?! #with vpunch
+
+    Uh oh...
+
+    #play sound sfx.dagger_draw
+    He draws his kukri and strides towards me. [n+] I toss my hands in the air, stammering like a child.
+
+    # nvl clear
+
+    Caius: Ah! I-I mean no harm! I-I'm just a m-monk, and I was-was just going for a walk! #sad portrait
+    Cultist: Out here, in the depths of the forest, near midnight?
+    Caius: Yes...I was enjoying myself a bit too much and got a little lost. [n+] Um, would you happen to know the way back to Jubilee?
+    Cultist: ...Hmm.
+
+    It takes all my self control not to attack as he draws closer. My heart races with each step he takes. [n+] A broad smile answers my worries. It's as if he's forgotten he's upset. [n+] Hold on, did he actually believe that?! #italicize actually
+
+    Cultist: Just keep heading straight, and you'll find the road. [n+] If you got this far, you should be okay on your own.
+	Caius: Ahh! Is it that simple?! I made so many twists and turns... #happy portrait
+	Cultist: It is a nice night. That full moon is splendid!
+    Caius: Yes, sir...!
+    Cultist: Wait, you said you were a monk?
+    Cultist: Uh huh... #snide portrait
+    Cultist: Who do you worship?
+	Caius: Ummm...Ishmael! #TODO recast
+	Cultist: Ha, I never would've guessed.
+
+    Why is he being so nice to me...? Especially after I said Ishmael? [n+] If memory serves, Hecate detests him specifically. I believe she's still vengeful about her banishment.
+    Cultist: You monks are a dime a dozen! Can't believe you'd come this far without an escort.
+    Caius: Well haha, I have faith in my lord... #snide portrait
+    Cultist: Ahh, I can relate. So do I!
+    
+	#play sound sfx.weapon_swing
+	#pause 0.6
+	#play sound sfx.jab
+    #join Cultist:
+        #ease 0.1 xoffset -10
+        #ease 0.1 xoffset 10
+        #ease 0.1 xoffset -10
+        #ease 0.1 xoffset 0
+
+    #pause 0.4
+    #join Cultist:
+        #ease 0.3 yoffset 150
+    #pause 0.1
+    #play sound sfx.thud
+    #leave Cultist with Dissolve(0.2)
+    #leave sound
+
+    Within a blink of an eye, he swings the knife and I strike his chest. WIth a thrust to his heart, he crumples.
+    I tremble. So he was just leading me on? How could I be so naive...? Had I been a second slower...
+
+    #join Griswyr neutral at center with dissolve
+    Griswyr: So what was your strategy, there?
+	Caius: I have no idea... #sad portrait
+    Griswyr: Well, you got him away from the door... I suppose some praise is in order.
+    Caius: We can hide him in the rose bushes. When he wakes up, being tangled up in there will slow him down.
+    Griswyr: ... [n+] You think he's going to wake up?
+    Caius: Huh? #neutral pportrait
+
+    #play sound sfx.heavyslash
+   	#with bloodflash
+
+    Did Griswyr just... [n+] Cut that man's throat?!
+    The Thorn's gurgled chokes ring through my ears, and Griswyr licks his sword. [n+] My stomach churns... What is the point of this?! He's not scaring anyone but me...
+    Time stands still. The body twitches haphazardly before going stiff... [n+] I close my eyes multiple times, just to open them to the same carnage...
+
+
+    Griswyr: If any cultists are on patrol, I say we leave the body in the open. [n+] It'll give them a taste of what awaits them.
+    Caius: ...Why? #angry portrait
+    Griswyr: Oh? Do you feel sorry for him?
+    Caius: That's...not how we do things. He should have been tried by the Law, not us... #angry portrait
+    Griswyr: I don't see the problem. He would've been killed either way. [n+] If anything, he got off easy. I doubt he even knows he's dead.
+    Caius: Griswyr...!  #angry portrait
+    Griswyr: What? Are you going to tell me he could've been redeemed? [n+] He didn't think twice when he tried to remove your head.
+	Caius: ... [n+] I don't like this. We're Emissaries. We protect people, not butcher them. #sad portrait
+    Griswyr: Yes, we should give a man who wanted to plunge our world into Hell another chance. [n+]  Why? So he could give us lip service and try again?
+    Caius: You're assuming again, Griswyr! [n+] Devils prey on weakness. Not all of their worshipers are malicious. A lot of them didn't have a choice... #angry portrait
+    Griswyr: And I'm supposed to care? [n+] The road to Hell is paved with good intentions. If you try to bring a fiend into this world, you are an enemy of humanity no matter your reasons.
+	Caius: And if they were deceived? #neutral portrait
+    Griswyr: If a devil tricks you, that is a failure on your end. Even a simpleton knows not to believe those monsters. [n+] People aren't blameless. That man knew what he was signing up for. And now he is with his wretched goddess.
+    Caius: And has become another asset for her ranks... #snide portrait
+    Griswyr: So be it. He's locked in Hell and no longer our concern. [n+ If you're done preaching, can we resume our objective?
+	Caius: ...Yes sir. #sad portrait
+
+    I'm heartbroken. I knew he would be cold, but not heartless... [n+] I understand his fears, but I don't agree with his methods. I hope that he doesn't expect me to take someone's life so, callously...
+    Perhaps I care because of my guilt. [n+] Dretchlings are prime targets for Devils. Their bitter mistreatment by others pushes those poor souls straight into their hands.
+    I only hope that a saint would give {i}him{/i} the compassion I couldn't... #italicize him
+
+    #leave Griswyr with dissolve
+    join# background cave entrance at truecenter:
+        #zoom 1.0
+        #easeout 2.0 zoom 1.5
+    #stop music fadeout 1.5
+    #pause 1.5
+    #scene image #000 with dissolve
+
+    jump scene_04

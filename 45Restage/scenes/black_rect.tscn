@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8debrfvjwy1h"]
+
+[ext_resource type="Script" uid="uid://ddgkasf30hued" path="res://scripts/trivial/black_rect.gd" id="1_heeqn"]
+
+[node name="BlackRect" type="ColorRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+script = ExtResource("1_heeqn")
+fade_half_time = 0.7
