@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://benk7hrnaj24q"]
+
+[node name="SettingsTabs" type="TabContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+current_tab = 0
+drag_to_rearrange_enabled = true
+
+[node name="Volume" type="TabBar" parent="."]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="Resolution" type="TabBar" parent="."]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="Controls" type="TabBar" parent="."]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2

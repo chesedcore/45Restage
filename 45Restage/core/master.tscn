@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://cqlo5ls6t753j" path="res://core/transitions.gd" id="1_l4f7p"]
 [ext_resource type="Script" uid="uid://cqa4s4hl5p868" path="res://core/master.gd" id="1_mf2i1"]
 [ext_resource type="Resource" uid="uid://dnl12urulddkl" path="res://dialogic_data/timelines/Intro.dtl" id="2_fn6x0"]
-[ext_resource type="PackedScene" uid="uid://cfhwwc3apdqbc" path="res://scenes/MainMenu.tscn" id="3_mddgv"]
+[ext_resource type="PackedScene" uid="uid://cfhwwc3apdqbc" path="res://scenes/main_menu.tscn" id="3_mddgv"]
 
 [node name="Master" type="Control" node_paths=PackedStringArray("game", "transitions")]
 layout_mode = 3
